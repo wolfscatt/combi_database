@@ -1,1214 +1,550 @@
 [
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C 20 Arıza Kodu",
-      "description": "Kalorifer Gidiş Suyu Sensör De Arıza Mevcut. Tesisat Gidiş Suyu Borusunun Üstün De Bulunan Sensor Arıza Yapmış Veya Kısa Devre Oluşmuş Olabilir. Bu Sebeple De Böyle Bir Arıza İle Karşılaşıyor Olabilirsiniz. Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C 40 Arıza Kodu",
-      "description": "Kalorifer Dönüş Suyu Sensör De Sorun Var. Kalorifer Dönüş Suyu borusunun Üzerinde Yer Alan Sensor Arıza Yapmış. Değişimi Gerekebilir. Konuyla İlgili Servisi Aramanız Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C 28 Arıza Kodu",
-      "description": "Baca Gazı Sensorun De Arıza Olduğunu Belirten Hata Kodudur. Baca Gazının Sıcaklığını Kontrol Eden Bu Sensor Eğer Arızalanırsa Cihaz Böyle Bir Arıza Kodu Verir. Resetleme İşlemi Bu Arızada İşe Yaramayabilir. Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C 78 Arıza Kodu",
-      "description": "Su Basıncını Okumaya Yarayan Su Basınç Sensör De Arıza Olduğu Belirten Koddur. Servis Çağırmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C 50 Arıza Kodu",
-      "description": "Plakalı Eşanjör ün Üst Kısmında Bulunan Sensör De Arıza Meydana Gelmiş. Bu Durumda Sıcak Su Almanız Zorlaşabilir. Airfel Kombi Servisi Arayın."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 05 Arıza Kodu",
-      "description": "Hava Atma Programının Devrede Olduğunu Bildiren Koddur. Bu Arıza Kodu Belirdikten Sonra Ekranda Anahtar İşareti Belirlenir. Belirli Bir Süre Sonra Kombi Normal Çalışmasına Devam Eder."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 11 Arıza Kodu",
-      "description": "Maksimum Sıcaklık Seviyesinin Aşıldığını Belirten Koddur. Senyörler Üstünden Okunan Isı Değeri Maksimumu Aşmışsa Ekranda Bu Arıza Kodu Belirir. Reste Atın Ve Bir Süre Bekleyin. Eğer Düzelmez İse Veya Bu Hata İle Sık Sık Karşılaşıyorsanız Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 10 Arıza Kodu",
-      "description": "Kalorifer Gidiş Suyu Maksimum Isı Seviyesini Aştığı Zaman Bu Durumda Limit Termostat (Aşırı Isı Termostatı) Kombiyi Korumak Amaçlı Devreye Girer Ve Cihaz Çalışma Dışı Kalır. Daha Sonrasında Kombi Bu Arızayı Verir. Reste Atınız Ve Biraz Bekleyiniz. Kombi Devreye Girer Ve Çalışmaya Devam Eder. Şayet Anormal Çalışma Sergiler İse Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 33 Arıza Kodu",
-      "description": "Kombide Ateşleme Arızası Olduğunu Bildiren Hata Kodudur. Cihazın Gaz Vanalarını Kontrol Ediniz. Açık Olmayabilir. Eğer Açık İse Kombiye Reste Atınız. Düzelmiyor İse Kombinin Gaz Valfi, İyonizasyonu Veya Elektronik Kartı Arızalı Olabilir. Servis Çağırıp Kontrol Ettiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 17 Arıza Kodu",
-      "description": "Kombinin İçerisinde Ki Mevcut Suyun 2,5 Barı Aştığını Belirten Koddur. Eğer Kombi Bu Şekilde Çalışırsa Parçalara Zarar Verebilir. Peteklerin Hava Alma Müşöründen Cihazın Basıncı 1,5 Olana Kadar Suyu Tahliye Etmeniz Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 18 Arıza Kodu",
-      "description": "Kombinin Su Basıncının Düşük Olduğunu Bildiren Arıza Kodudur. Bu Arıza Kodunda Kombi Çalışmaz Ve Verim Sağlamaz. Su Bar Değeri 1,5 Olana Kadar Kombiye Su Basmanız Gerekir. Daha Sonra Kombi Çalışmasını Sürdürür."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 29 Arıza Kodu",
-      "description": "Fan Motoru Sorunu. Kombi Çalışmaya Başladığı Zaman Bu Arızayı Veriyor İse Fan Motoru Çalışmıyor Demektir. Tamiri Veya Değişimi Gerekebilir. Teknik Servis İle Görüşünüz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 30 Arıza Kodu",
-      "description": "Baca Gaz Sıcaklık Seviyesinin 80/90 Derece Olduğunu Bildiren Arıza Kodudur. Yoğuşma Suyu Giderin De Yahut Bacada Tıkanma Varsa Kombi Böyle Bir Arıza Verebilir. Airfel Kombi Servis İle Görüşünüz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Digifel",
-      "faultCode": "C1 56 Arıza Kodu",
-      "description": "Voltajlar Da Hata Olduğunu Belirten Arıza Kodudur. Kullanıcının Voltaj Düzenleyici Regülatör Taktırması Gerekmektedir. Eğer Voltajlar Da Daima Oynama Olursa Cihazın Elektronik Kartı Hasar Görebilir. Konuyla Alakalı Olarak Servisimizi Arayabilirsiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıp Sönmekte, 2. LED Yanıyor Ve 3. LED Yanmıyor İse",
-      "description": "Kombinin Su Basıncı Düşük Durumda. Cihazın Su Seviyesini 1,5 Bara Ayarlamanız Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanmıyor, 2. LED Yanıyor Ve 3. LED Yanmıyor İse",
-      "description": "Kombide Ateşleme Var Fakat Alev Oluşmuyor. Bu Kodda Cihaz Ateşleme Yapmayı Dener Fakat Alev Almadığından Çalışmaz. Haliyle Kullanıcı Ne Sıcak Su Alabilir Nede Petekleri Kullanabilir. Bu Durumda Cihaza Birkaç Kez Reset Atınız. Düzelmiyor İse Gaz Valfi, Elektronik Kart Veya İyonizasyon Sorunlu Olabilir. Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Ve 2. LED Yanıyor, 3. LED Yanmıyor İse",
-      "description": "Kombinin Isı Seviyesi Maksimuma Ulaşmış Ve Emniyet Termostat Devreye Girerek Cihazı Kapamış. Kombiye Reset Atın Ve Bir Süre Bekleyin. Cihaz Normale Dönecektir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanmıyor, 2. LED Ve 3. LED Yanıyor İse",
-      "description": "Cihazda Atık Gaz Arızası Olduğunu Bildiren Hatadır. Kullanıcının Müdahale Edeceği Bir Durum Olmadığından Servis Çağırması Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanmıyor, 2. LED Ve 3. LED Yanıp Sönmekte İse",
-      "description": "Kalorifer Sensöru Arızası. Bu Hatada Kullanıcı Peteklerden Verim Alamayabilir Ve Sensorun Değişimi Gerekebilir. Servis İle İrtibata Geçiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Ve 2. LED Yanıp Sönüyor, 3. LED Yanmıyor İse",
-      "description": "Sıcak Su Sensöru Arızası Olduğunu Bildiren Hatadır. Kullanıcı Sıcak Su Alamayabilir. Servis Çağırmanız Gerekiyor."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıp Sönüyor, 2. LED Yanmıyor Ve 3. LED Yanıp Sönüyor İse",
-      "description": "Yanlış İyonizasyon Arızası Mevcut. İyonizasyon Elektrotu Alevin Oluştuğunu Göremiyor. Kombiye Gaz Gelmiyor Olabilir Gaz Var İse İyonizasyon Elektrotu, Gaz Grubu Veya Elektronik Kart Arızalı Olabilir. Servis Çağırmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED, 2. LED Ve 3. LED Yanıyor İse",
-      "description": "Pompa Blokaj Anlamına Gelen Bu Hatada, Pompa Arızalanmış Olabilir. Servis Çağırarak Cihazı Kontrol Ettiriniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED, 2. LED Ve 3. LED Yanıp Sönüyor İse",
-      "description": "Kombinin Kalorifer Ve Sıcak Su Kısmının Çalışmasını Beklemeden Tuşlara Basılarak Yapılan Testtir. Bu İşlemi Teknisyen Yapar. Mod Tuşlarına Basarak Kombiyi Çalıştırır."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Ve 2. LED Yanmıyor, 3. LED Yanıp Sönüyor İse",
-      "description": "Peteklerin Çalışma İsteği Olduğunu Belirtir. Cihaz Normal Çalışma Sergilemektedir. Sorun Yoktur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıp Sönüyor, 2. LED Ve 3. LED Yanmıyor İse",
-      "description": "Kombi Kullanım Suyu İsteğinde Olduğunu Bildirmektedir. Cihazda Sorun Yoktur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Ve 2. LED Yanıp Sönüyor, 3. LED Yanmıyor İse",
-      "description": "Tesisat Sistemi Donmaya Karşı Koruma Aldığını Belirtmektedir. Herhangi Bir Arıza Yoktur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıp Sönüyor, 2. LED Ve 3. LED Yanmıyor İse",
-      "description": "Cihazın Normal Çalışma Sistemidir. Herhangi Bir Sorun Mevcut Değil."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıyor, 2. LED Yanmıyor, 3. LED Yanıyor İse",
-      "description": "Cihazın Sıcak Su Ve Kış Modül Aktif Durumda. Herhangi Bir Problem Yoktur. Norma Çalışmadır."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Ve 2. LED Yanmıyor, 3. LED Yanıyor İse",
-      "description": "Sıcak Su Ve Kış Modül Pasif Durumda. Cihazda Arıza Yoktur. Normal Çalışma Sistemidir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED Yanıyor, 2. LED Ve 3. LED Yanmıyor İse",
-      "description": "Sıcak Su Ve Yaz Modunun Aktif Olduğunu Belirten Koddur. Kombide Sorun Yoktur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Ecofel",
-      "faultCode": "1. LED, 2. LED Ve 3. LED Yanmıyor İse",
-      "description": "Sıcak Su Ve Yaz Modül Pasif Durumda Yahut Beklemede. Normal Çalışmadır. Cihazda Sorun Yoktur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "10 Arıza Kodu",
-      "description": "Alev Oluşumunda Arıza Mevcut. Cihaza Birkaç Kez Reset Atınız. Düzelmiyor İse, Gaz Gurubunda, İyonizasyon Da Veya Elektronik Kartta Sorun Olabilir. Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "11 Arıza Kodu",
-      "description": "Kombinin Parazit Alev Yaptığını Gösteren Koddur. Kombiye Reset Atıp Bir Süre Bekleyiniz. Cihaz Düzelecektir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "12 Arıza Kodu",
-      "description": "Kombi Kendiliğinde Kapanmış Ve Tekrar Çalışmaya Başlamış. Sürekli Olursa Servise Başvurunuz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "13 Arıza Kodu",
-      "description": "Gaz Giriş Basıncı En Düşük Seviyede. Kombiye Reset Atmayı Deneyiniz. Düzelmediği Takdir De Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "14 Arıza Kodu",
-      "description": "Kombiye Gaz Giriş Hissedilemiyor. Gaz Valfin De Veya Elektronik Kartta Sorun Olabilir. Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "15 Arıza Kodu",
-      "description": "Kombinin Çalışma Sistemini Kesen Ve Onu Korumaya Yarayan Stand By Modül Devreye Girmiş Durumda. Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "20 Arıza Kodu",
-      "description": " Aşırı Isınma Veya Brülör Termostatın Da Arıza Olabilir. Cihaza Reset Atınız. Düzelmiyor İse Direkt Olarak Servise Başvurunuz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "21/22 Arıza Kodu",
-      "description": "Duman Sondasında Kısa Devre Veya En Yüksek Sıcaklık Meydana Gelmiş. Kullanıcı Müdahale Edemez. Servis Çağırıp Cihazı Kontrol Ettirmesi Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "24/25 Arıza Kodu",
-      "description": "Kombinin Giriş Sondasın Da Görülen En Yüksek Sıcaklık Olduğunu Belirten Arıza Kodudur. Sizin Müdahale Edebileceğiniz Bir Durum Söz Konusu Olmadığından Servise Başvurmanız Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "26/27 Arıza Kodu",
-      "description": "Cihazın Dönüş Sondasının En Yüksek Sıcaklıkta Olduğunu Belirten Koddur. Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "28 Arıza Kodu",
-      "description": "Giriş Ve Çıkış Sondası Açık Durumda Kalmış. Servis Çağırmanız Gerekir. Kullanıcının Müdahale Etmemesi Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "29 Arıza Kodu",
-      "description": "Baca Sonrası Açık Kalmış Durumda. Servis Çağırarak Sorunun Çözümü Hakkında Yardım İsteyiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "30/31/36/38 Arıza Kodu",
-      "description": "Bu Dört Arıza Kodu Da Aynı Anlamı Taşımaktadır. Hava Basınç Anahtar Ve Duman Çıkış Arızası. Kullanıcının Müdahale Edeceği Bir Durum Söz Konusu Değildir. Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "33/34 Arıza Kodu",
-      "description": "Fanın Durmaksızın Devir Başında Olduğunu Belirten Arıza Kodudur. Fanın Tamiri Yâda Değişimi Gerekebilir. Servise Başvurunuz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "35/37 Arıza Kodu",
-      "description": " Fanın Devir Sonuna Geldiğini Veya En Yüksek Çalıştığını Bildiren Hata Kodudur. Airfel Teknik Servis İle İrtibata Geçiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "40 Arıza Kodu",
-      "description": "Sistemde Ki Su Bar Seviyesi Çok Fazla Yükselmiş Durumda. Şayet Su Basıncı 2,5 Barı Aştı İse Kombi Bu Arızayı Verir. Peteklerin Yan Taraflarında Yer Alan Hava Alma Müşöründen Fazla Basıncı Almanız Gerekir. Standart Bar Seviyesi 1,5 bardır."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "41 Arıza Kodu",
-      "description": "Kombinin Su Basınç Ayarı Sıfırlanmış. Cihaza Doldurma Musluğunun Yardımı İle Su Basılması Gerekir. Basınç Seviyesi 1,5 Olana Kadar Su Basınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "42 Arıza Kodu",
-      "description": "Su Basınç Anahtar Arızası Mevcut. Konuyla Alakalı Detaylı Bilgi İçin Servisi Arayınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "50-59 Arıza Kodu",
-      "description": "Elektronik Panosunda Sorun Olduğunu Belirten Koddur. Servis İle İrtibata Geçerek Sorunun Çözümü Hakkında Yardım İsteyiniz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "60 Arıza Kodu",
-      "description": "Sıcak Su Sensörünün Arızalı Olduğunu Belirten Arıza Kodudur. Kullanıcı Sıcak Su İsteğini Karşılamayabilir. Servis Çağrılması Gereken Bir Durumdur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "70/72 Arıza Kodu",
-      "description": " Ana Sonra Açık Veya Kısa Devre Yapmış Durumda. Servisin Müdahale Edeceği Teknik Bir Arızadır."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "71 Arıza Kodu",
-      "description": "Giriş Sonda Sıcaklığı En Yüksek Konumda. Servise Başvurunuz."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "77 Arıza Kodu",
-      "description": "Limit Termostatta Düşük Sıcaklık Mevcut. Kombiye Birkaç Kez Reset Atınız. Düzelmiyor İse Servis Çağırınız."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "78/79 Arıza Kodu",
-      "description": "Çıkış Ve Giriş Diferansiyel Arızası Mevcut. Kullanıcının Müdahale Edebileceği Bir Durum Söz Konusu Değildir. Servis Tarafından Müdahale Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "80/82 Arıza Kodu",
-      "description": "Kombi Normal Çalışmıyor. Arızaya Geçmiş. Bu Durumda Kullanıcı Müdahale Edemez. Sorunun Tespiti İçin Servis Çağrılması Gerekir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "81/83 Arıza Kodu",
-      "description": "Cihaz Arızaya Geçmiş. Kombiye Reset Atıp Bekleyiniz. Kendiliğinden Düzelecektir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "92/93 Arıza Kodu",
-      "description": "Yoğuşma Suyu Sensöru Arıza Görmüş. Kullanıcı Müdahale Edemez. Cihaz Arızaya Geçebilir. Servis Çağırmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "94/95 Arıza Kodu",
-      "description": "Yoğuşma Suyu Sensöru Açık Devre Yapmış Durumda. Servis Çağırmanız Gereken Bir Durum Söz Konusudur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "JO Arıza Kodu",
-      "description": "Elektronik Kartın Bağlantısının Yanlış Yapıldığını Gösteren Koddur. Servis Çağırmanız Gereken Bir Durumdur."
-    },
-    { 
-      "brand": "Airfel",
-      "model": "Family Cond",
-      "faultCode": "J1 Arıza Kodu",
-      "description": "Kablolu Uzaktan Kumanda Birleşmesi Mevcut. Servis Çağırınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Kombinin Ateşleme İşlemini Gerçekleştiremediğini Belirten Koddur. Bu Durumda Cihazdan Verim Alınması Söz Konusu Olamaz. Kombiye Gazın Gelip Gelmediğini Kontrol Ediniz. Eğer Gaz Girişi Var İse Kombiye Birkaç Defa Olmak Şartı İle Reset Atınız. Resetten Sonrada Düzelmez İse Gaz Armatürün De, İyonlarda, Elektrotlarda Veya Kartta Sorun Olabilir. Alarko Serena Servisi Tarafından Müdahale Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Cihazda Limit Termostat Denilen Bir Parça Mevcuttur. Bu Parça Cihaz Aşırı Isındığı Zamanlarda Devreye Girip Kombiye Olası Zararlardan Korumaktadır. Eğer Kombi De Böyle Bir Arıza Kodu Meydana Gelir İse Limit Termostatının Hasar Gördüğünü Anlayabiliriz. Konuyla Alakalı Olarak Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "H20 Arıza Kodu",
-      "description": "Kombi İçerisinde Ki Su Basıncının Bittiğini Ve Bu Sebeple De Cihazın Çalışmadığını Belirten Arıza Kodudur. Bu Kod Göstergede Belirdiği Anda Kombiye 1 İle 2 Arasına Kadar Su Basmanız Gerekmektedir. Sonrasında Cihaz Eski Verimine Geri Dönecektir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Tesisat Sensörün De Arıza Oluştuğunu Gösteren Arıza Kodudur. Tüketici Kaloriferleri Isıtmada Problem Yaşayabilir. Servis Tarafından Sensörün Değişimi Gerekir. Bu Sensör Yüzeysel Sensör Olarak Da Bilinmektedir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Kombi Sıcak Su Sensörün De Arıza Oluştuğunu Gösteren Koddur. Bu Esnada Kullanıcı Sıcak Su Alamaz. Veya Sıcak Su Bir Süre Akar Bir Süre Akmaz. Alarko Servisi’ni Çağırıp Kombiye Müdahale Ettiriniz."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E14 Arıza Kodu",
-      "description": "Baca Tıkalı Olabilir Yahut Baca Bağlantılarında Gevşeme Meydana Gelmiş Olabilir. Bu Tip Durumlar Da Kombi Bu Arıza Kodunu Verir. Servis Tarafından Müdahale Gereklidir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E22 Arıza Kodu",
-      "description": "Cihazın Parametre Ayarında Bozukluk Meydana Gelmiş. Bu Sebeple De Cihaz Eski Çalışma Sistemini Sürdüremez. Servis Tarafından Parametre Ayarlarının Yapılması Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Serena",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Kombi Ateşleme İşlemini Yapıyor Ama Alev Almadığından Dolayı Geri Sönüyor Ve Verim Sağlamıyor. Gazla Alakalı Arıza Meydana Gelmiş Olabilir. Alarko Kombi Servisi’ni Çağırınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "80 Ledi Yanıp Sönüyor İse",
-      "description": "Cihaz Kendini Kullanıma Kapatmış Durumda. Bu Sebeple De Kombi Ateşleme Yaparken Alev Almadığından Dolayı Verim Sağlıyor. Alarko Trendy Servisi’ni Aramanız Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "80 Ve 70 Ledi Yanıp Sönüyor İse",
-      "description": "Kombinin İçinde Mevcut Olan Isı En Yükseğe Ulaştığından Dolayı Kombi İşlevlerini Geçici Olarak Kilitlemiş Demektir. Cihaza Reset Atınız. Bir Süre Müdahale Etmeyiniz. Düzelmesini Bekleyiniz. Düzelmiyor İse Servis Çağırınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "80 Ve 60 Ledi Yanıp Sönüyor İse",
-      "description": "Cihazın Bacasının Çekimin De Problem Yaşandığını Belirleyen Hata Bildirimleridir. Acil Olarak Kombi Bacasını Kontrol Ettirmeniz Gerekmektedir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "60 Ledi Yanıp Sönüyor İse",
-      "description": "Kombinin Hava Akım Sorunu Mevcut. Fanın Da Arıza Meydana Gelmiş Veya Baca Çekim Gücünü Kaybetmiş Olabilir. Teknik Servis’ten Yardım Almanız Gereken Bir Durumdur."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "70 Ve 60 Ledi Yanıp Sönüyor İse",
-      "description": "Kombinin İçerisin De Ki Su Basıncı Düşük. Kombiye Su Basıldığı Takdir De Sorun Çözümlenecektir. Standart Su Bar Ayarı 1,5 Bardır."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "50 Ledi Yanıp Sönüyor İse",
-      "description": "Kombinin Sıcak Su Akıtmasın Da Ki Etmen Olan Parçasın Da Hasar Meydana Gelmiş Durumda. Tüketici Sıcak Suyu Almakta Zorluk Çekebilir Veya Sıcak Su Hiç Akmayabilir. Sensör Değişirse Sorun Çözümlenir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy",
-      "faultCode": "40 Ledi Yanıp Sönüyor İse",
-      "description": "Kombinin İçerisin De Petekleri Isıtmaya Yarayan Sensör Bulunmaktadır. Eğer Kombi De Bu 40 Ledi Yanıp Sönüyor İse Bu Sensör De Arıza Var Demektir. Cihazın Derecesi Yükseltilse De Petekler Isınmayabilir. Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F5 + İng Anahtarı Arıza Kodu",
-      "description": "Hava Akımın Da Arıza Meydana Geldiği Belirten Koddur. Hava Prosestatı Arızalı Veya Baca Çekimi Yetersiz Olabilir. Servis Çağırınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F4 + Reset + İng Anahtarı Arıza Kodu",
-      "description": "Cihaz Ateşlemeye Geçiyor Fakat Alev Almadığı İçin Çalışmıyor. Gazla İlgili Sorun Meydana Gelmiş Veya Gaz Grubu, İyonizasyon Yahut Kart Arızalı Olabilir. Alarko Servis İle Görüşmeniz Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F4 + İng Anahtarı Arıza Kodu",
-      "description": "Kombi Ateşleme İşleminden Sonra Alevlemesi Sahte Oluyor. Bu Durumda Da Cihazın Verim Sağlaması Mümkün Olamaz. Sorunun Tespit Edilmesi İçin Servis Çağırmanız Gereken Durum Söz Konusudur."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F3 + İng Anahtarı Arıza Kodu",
-      "description": "Peteklere Sıcaklık Gitmesini Sağlayan Sensör De Arıza Meydana Gelmiş. Bu Şekilde Kullanıcının Petekleri Isınmayabilir. Sensör Değişir İse Cihaz Da Eski Verimini Sağlayabilir. Alarko Trendy-D Servisi’ni Çağırınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F2 + İng Anahtarı Arıza Kodu",
-      "description": "Kombiden Sıcak Su Gelmesin De Baş Gösteren Parçalardan Biri Olan Ntc Sensörün De Arıza Meydana Gelmiş. Bu Şekilde Kullanıcı Sıcak Su Alamaz. Servis Tarafından Sensör Değişimi Gerekir."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F1 + Reset + İng Anahtarı Kodu",
-      "description": "Kombiler De Aşırı Isınma Sorunu Olduğu Zamanlar Da İçerisin De Bulunan Limit Termostat Devreye Girerek Kombinin Zarar Görmesini Engeller. Eğer Ekranda Böyle Bir Kod Beliriyor İse Bu Sensör Görevini Yapamıyor Demektir. Cihaza Reset Atınız. Şayet Düzelmez İse Servis İle Görüşüp Sorunun Çözümü Hakkında Bilgi Alınız."
-    },
-    { 
-      "brand": "Alarko",
-      "model": "Trendy-D",
-      "faultCode": "F0 + İng Anahtarı Arıza Kodu",
-      "description": "Cihazın Suyunun Azaldığını Veya Bittiğini Gösteren Arıza Kodudur. Kombinin Su Basıncı Düştüğü Zamanlar Da Cihaz Bu Arıza Kodunu Verir. Basıncı 1 İle 2 Arasına Getirip Kombinin Eski Çalışmasına Devam Etmesini Sağlayabilirsiniz. Eğer Su Basıncı Standart Seviye De İse Su Dolaşımında Arıza Meydana Gelmiştir. Alarko Kombi Servisi’ni Arayınız."
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "101",
-      "description": "Aşırı Isınma"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "501",
-      "description": "Alev Yok"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "103",
-      "description": "Yetersiz Dolaşım"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "104",
-      "description": "Yetersiz Dolaşım"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "105",
-      "description": "Yetersiz Dolaşım"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "106",
-      "description": "Yetersiz Dolaşım"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "107",
-      "description": "Yetersiz Dolaşım"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "111",
-      "description": "Yetersiz Dolaşım 'Doldurma Tuşuna Bas'"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "601",
-      "description": "Egzoz Dumanı Tahliye Arızası"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "305",
-      "description": "P.C.B. Arızası – Elektronik Kart Arızası"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "306",
-      "description": "P.C.B. Arızası – Elektronik Kart Arızası"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "307",
-      "description": "P.C.B. Arızası – Elektronik Kart Arızası"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "607",
-      "description": "Ana Kart Arızası – Hava Sirkülasyonu"
-    },
-    { 
-      "brand": "Ariston",
-      "model": "Ariston",
-      "faultCode": "677",
-      "description": "Ana Kart Arızası – Fan Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Baxi Luna Kombide E01 Uyarısı Kombiye Gazın Gelmediğini Belirtmektedir. Bu Durumda Kombinin Elektronik Kartında Ya Da Gaz Valfinde Sorun Olabilir. Yapılması Gereken İse Baxi Luna Kombi Servisi’ne Ulaşmaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Cihazda Aşırı Isınma Söz Konusu Olduğunda Bu Uyarı Kodu Ekranda Belirmektedir. Kısacası Termostat Arızalı İse Cihaz Kendini Otomatik Olarak Bloke Etmiştir. Cihaz İçin Kullanım Dışı Olmuş Da Diyebiliriz. Bu Durumda Baymak Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Baca Tip Kombilerde Baca Sensoru Yer Almaktadır. Baca Sensörünün Kombideki Görevi Kombinin Aynı Zamanda Ortamın Sıcaklığını Kontrol Etmek Ve Elektronik Karta Bunu Aktarmaktır. Bu Arıza Kodu Ekranda Beliriyor İse Sensör Görevini Gerçekleştirmiyordur. Kısa Sürede Baymak Baxi Luna Servisi’nden Yardım Almalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E04 Arıza Kodu",
-      "description": "Kombide Alev Olup Olmadığını Elektronik Karta Aktaran İyonizeysen Elektrotu Sinyal Alamadığında Kombi Ekranında Bu Uyarı Kodu Belirmektedir. Gaz Akımında Bunun Yanı Sıra Atık Gaz Sisteminde Ya Da İyonizeysen Elektrotunda Sorun Olabilir. Baymak Servisi’ni Arayarak Yardım İstemelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Baxi Luna Kombide E05 Hata Kodu Var İse Kalorifer Sensöründe Sorun Vardır. Bu Durumda Kaloriferler Kesinlikle Isınmaz. Sorunun Çözümlenmesi Adına Baxi Luna Servisi Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Baxi Luna Kombide Bu Uyarı Kodu Yaz Kış Yaşanabilmektedir. Çünkü Bu Kodun Açıklaması Kombinin Sıcak Su Vermemesidir. Bu Durumda Kombide Sıcak Su İçin Çalışan Sensörünün Değişimi Gerekmektedir. Parça Değişimi İçin Mutlaka Baxi Luna Servisi İle Görüşünüz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Kombide Suyun Azaldığını Belirten Uyarı Kodudur. Kombi Basıncını Kontrol Ederseniz 1 Barın Altında Olduğunu Görürsünüz. Kombiye Gerektiği Kadar (1,5 Bar) Su Basarsanız Kombi Çalışmaya Devam Edecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E25 Arıza Kodu",
-      "description": "Kombinin En Yüksek Sıcaklığa Ulaştığını Belirten Hata Kodudur. Baxi Luna Kombi Ekranında Bu Hata Kodu Belirdi İse Ya Pompa Sıkışmıştır Ya Üç Yollu Vananın Konumu Değişmiştir Ya Eşanjör Tıkanmıştır Veya Kireçlenmiş Ya Da Kalorifer Filtreleri Tıkanmıştır. Bu Durumda Cihaza Müdahale Etmemeli Baxi Luna Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Baxi Luna Kombide Beliren Bu Uyarı Kodu Cihazda Alevin Oluşmadığı Anlamındadır. Bu Durumda Cihazdan Sıcak Su Alamazsınız Aynı Zamanda Petekleriniz De Isınmaz. Cihaza Müdahale Etmeden Baymak Servisi Aramanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E80 Arıza Kodu",
-      "description": "Baxi Luna Kombi Ekranında E80 Uyarı Kodu Varsa Elektronik Kartta Sorun Var Demektir. Bu Durumda Tüketici Olarak Cihaza Müdahale Etmemeli Hemen Baymak Servisi Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E97 Arıza Kodu",
-      "description": "Elektrik Voltajı İle Alakalı Sorun Olduğunda Baxi Luna Kombi Ekranında Bu Uyarı Kodu Belirmektedir. Bu Durumda Daire Girişine Gelen Voltajlar Düşük Veya Cihazda Elektronik Kart Sorunu Var Diyebiliriz. Baxi Luna Kombi Servisi İle İletişime Geçmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baxi Luna",
-      "faultCode": "E98/99 Arıza Kodu",
-      "description": "Baxi Luna Kombide Her İki Hata Kodu Da Elektronik Kart Arızası Anlamına Gelmektedir. Kısa Sürede Baymak Servis İle Görüşüp Yardım Talebinde Bulunmalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Ortamdaki Sıcaklık Seviyesini Elektronik Karta Aktarmakta Olan Sensörde Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketici Olarak Yapabileceğiniz İşlem Yoktur Brötje Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E25 Arıza Kodu",
-      "description": "Kalorifer Sensöründe Sorun Olduğunu Belirten E25 Arıza Kodu Brötje Kombi Ekranında Belirdi İse Petekleriniz’den Verim Alamazsınız. Bu Durumda Direk Olarak Baymak Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E28 Arıza Kodu",
-      "description": "Yalnızca Bacalı Kombilerde Bulunan Baca Sensoru Ortamın Aynı Zamanda Kombinin Sıcaklığını Kontrol Eder Ve Bunu Karta Aktarır. Kombi Ekranında Bu Hata Kodu Belirdi İse Ya Bu Sensörde Sorun Vardır Ya Da Bağlantılarında Kopukluk Vardır. Sensorun Görevini Yapmadığını Belirten Bu Hata Kodunda Direk Olarak Brötje Kombi Servisi’ni Aramalı Yardım İstemelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E50 Arıza Kodu",
-      "description": "Brötje Kombi Ekranında Bu Hata Kodu Belirdi İse Sıcak Su Sorunu Yaşanıyor Demektir. Bu Durumda Sıcak Su Alamazsınız. Sebebi İse Sıcak Su Sensörünün Arızalı Olması Ve Değişime İhtiyacı Olmasıdır. Böyle Bir Durumda Cihaza Müdahale Etmemeli Brötje Kombi Servisi’ne Ulaşmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E110 Arıza Kodu",
-      "description": "Aşırı Isınma Termostatı, Limit Termostatı (Stm) Brötje Kombinin İçinde Bulunan Su Aşırı Isınma Yaptığında Cihazı Bloke Eder. Göstergede Bu Uyarı Kodu Var İse Aşırı Isınma Termostatı Arızalıdır Veya Atık Gaz Sıcaklığını Elektronik Karta Aktaran Baca Sensöründe Problem Vardır. Baymak Servisi’ni Çağırmalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E119 Arıza Kodu",
-      "description": "Brötje Kombinin Su Basınç Göstergesi Olması Gereken Değerin Altındadır. Kombi Ekranında Bu Uyarı Kodu Belirdi İse Kombiye İhtiyacı Olan Suyu Vermek Gerekir. Kombi Basınç Göstergesine Bakarsanız 0,3 Barın Altında Olduğunu Görürsünüz. Bu Durumda Kombiye Doldurma Musluğu İle Su Basmalı Basınç Değerini 1,5 Bara Çıkarmalısınız. İşlem Sonrası Kombi Çalışmasına Devam Edecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E125 Arıza Kodu",
-      "description": "Brötje Kombi Ekranında Bu Hata Kodu Varsa Kombi İçinde Bulunan Pompa Kalorifer Tesisatında Suyu Çeviremiyor Demektir. Ya Da Tesisatta Hava Vardır, Bu Sebeple Kombi Aşırı Isınma Sayesinde Arıza Uyarısı Veriyordur. Sorunun Çözümlenmesi İçin Brötje Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E130 Arıza Kodu",
-      "description": "Brötje Kombide Baca Sensöründe Kısacası Ortam Aynı Zamanda Kombi İçindeki Sıcaklığı Ölçüp Elektronik Karta Aktaran Sensöründe Aşırı Isınma Problemi Olduğunu Gösterir. Sorunun Ortadan Kalkması İçin Baymak Kombi Servisi’nden Yardım İsteyiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E133 Arıza Kodu",
-      "description": "Kombiye Gelmekte Olan Gaz Girişinde Problem Olduğunu Bildiren Arıza Kodudur. Bu Durumda Gaz Valfinde Ya Da Ana Karta Problem Olduğunu Söyleyebiliriz. Eğer Sorun Gaz Valfi İle Alakalı İse Kombiye Gaz Girişi Olmaz. Fakat Sorun Ana Kartla Alakalı İse Bu Durumda Ana Kart Gaz Valfine Görevini Yaptırmaz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E151 Arıza Kodu",
-      "description": "Cihazın Ekranında E151 Arıza Kodu Belirdi İse Bu Elektronik Kartta Sorun Olduğunu Belirtir. Bu Durumda Cihaza Reset Atmanız Gerekmektedir. Reset İşlemi Sonrasında Bir Süre Kadar Bekleyin. Sorun Eğer Düzelmez İse Baymak Teknik Servis’i Arayınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E156 Arıza Kodu",
-      "description": "Dairedeki Voltajın Düşük Durumda Olduğunu Belirten Hata Kodudur. Voltaj Değeri 220 V A Dönene Kadar Cihaza Müdahale Etmeyin. Bu Durumda Baymak Brötje Servisi’ni Arayın Ve Voltaj Düzenlemeye Yarayan Regülatör Cihazını Talep Edin. Voltajlarla Alakalı Sorunlar Yaşanıyor İse Kombi Parçaları Hasar Görebilir. Bu Konudaki Bilgileri Baymak Servisi’nden Alabilirsiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E160 Arıza Kodu",
-      "description": "Hermetik Tip Kombinin Fan Motorunda Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketicinin Müdahalesi Gerekmez Bu Yüzden De Brötje Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brötje",
-      "faultCode": "E193 Arıza Kodu",
-      "description": "Tesisatta Hava Olması Sebebi İle Cihaz Buna Bağlı Aşırı Isınma Durumu Yaşatıyordur. Bu Durumda Teknik Destek Adına Brötje Servisi’ni Arayınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Dolcevita Kombi Ekranında E01 Uyarısının Anlamı Cihazın Ateşlemeyi Sağlamamasıdır. Kombi Ateşleme Yapmadığında Verim De Alınamaz. Bu Nedenle De Sizin Bu Durumda Dolcevita Servisi’ne Ulaşmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Dolcevita Kombi Aşırı Isınma Sebebi İle Kendini Bloke Ettiğinde Ekranında Bu Uyarı Kodu Belirir. Sorun Aşırı Isınma Termostatının Arıza Yapmasıdır. Baymak Dolcevita Servisi Aramalı Yardım İstemelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Dolcevita Kombinin Atık Gaz Sisteminin Tam Anlamıyla Çalışmaması Sebebi İle Kombinin Arızaya Geçmesidir. Cihazın Baca Kontrolü Gerekir. Baca Çalışmasını Sorunsuz Gerçekleştiriyorsa Fan Motorunda Ya Da Proses Tatta Sorun Var Diyebiliriz. Baymak Dolcevita Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Cihazın Kalorifer Sensöründe Sorun Olduğunda Ekranda Beliren Hata Kodudur. Bu Durumda Peteklerinizle Alakalı Isınmama Sorunu Yaşarsınız. Durum Kalorifer Sensoru İle Alakalı Olabilir. Bu Yüzden De Arıza Tespiti Ve Müdahalesi İçin Dolcevita Servisi Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Dolcevita Kombi Ekranında Beliren Bu Hatanın Açıklaması Sıcak Su Sensöründe Sorun Olduğudur. Bu Durumda Kombi Sıcak Su Vermez. Kombi Eğer Sıcak Suyu Verirse Belirli Bir Süre Kadar Verir Sonrasında Suyu Soğutur. Tüketici Müdahalesi Gerektirmeyen Bir Durum Olduğu İçin Direk Dolcevita Kombi Servisi Aranmalıdır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Dolcevita Kombide Su Basınç Göstergesinin 0,3 Barın Altında Olduğunu Yani Kombinin Suyunun Azaldığını Belirten Uyarı Kodudur. Bu Durumda Tüketici Olarak Kombinin Altında Bulunan Doldurma Musluğunu Açmalı Kombiye 1,5 Bara Gelene Kadar Su Basmalısınız. Sonrasında Dolcevita Kombi Çalışacaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E25/26 Arıza Kodu",
-      "description": "Dolcevita Kombide Her İki Uyarıdan Biri Bulunuyor İse Muhtemel Pompa Hatasıdır. Bu Durumda Cihazda Birden Fazla Sorun Olabilir. Mesela Petekler Isınmaya Bilir, Kombi Ses Yapabilir Ya Da Kombi Hiç Çalışmıyor Olabilir. Bu Gibi Durumlarda Arızanın Hem Tespiti Hem De Çözümü İçin Baymak Servisi’nden Yardım Almalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Bu Uyarı Kodu Kombi Ekranında Belirdi İse Cihazın Ateşleme Yaptığı Fakat Alev Oluşturmadığı Anlamına Gelir. Kombiye Üç Kez Reset Atmanız Gerekmektedir. Reset Sonrasında Kombi Ekranında Hala Bu Uyarı Kodu Beliriyor İse Bu Durumda Baymak Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Dolcevita",
-      "faultCode": "E96 Arıza Kodu",
-      "description": "Daireye Gelen Voltaj Düşüklüğü Sebebi İle Kombi E96 Uyarı Kodu Verir. Bu Durumda Voltaj Düzenleyicisi Olarak Bilinen Regülatör Cihazı Kullanmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E01",
-      "description": "Gaz Beslemesi – Blokajı Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E02",
-      "description": "Emniyet Termostat Sensoru Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E03",
-      "description": "Baca Termostat Sensoru / Baca Basınç Sensoru Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E05",
-      "description": "Isıtma Devresi Ntc Sensor Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E06",
-      "description": "Kullanım Suyu Devresi Ntc Sensor Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E10",
-      "description": "Düşük Su Basıncı"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E25",
-      "description": "Maximum Sıcaklık Uyarısı"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Baymak",
-      "faultCode": "E35",
-      "description": "Alev Oluşumu Arızası"
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Eco 280fi",
-      "faultCode": "Neon1 Kapalı, Neon2 Açıksa",
-      "description": "Kombiye Gaz Girişin De Arıza Yaşadığını Bildiren Hatadır. Kombi Ateşleme Yapamıyor, Ateşleme Yapamadığı İçin De Verim Sağlamıyor. Gaz Gurubunda, Kartta, İyonizeysen Da Sorun Olabilir. Baymak Servisi İle Görüşmeniz Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Eco 280fi",
-      "faultCode": "Neon1 Kapalı, Neon2 Hızlı Yanıp Sönüyorsa",
-      "description": "Baca İşleyişin De Arıza Olduğunu Belirten İşlevdir. Eğer Kombi Bacalıysa Baca Sensöründe, Hermetikse Hava Prosestatı Veya Fan Motorun Da Arıza Olabilir. Baymak Kombi Servisi İle Görüşünüz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Eco 280fi",
-      "faultCode": "Neon1 Kapalı, Neon2 Yavaş Yanıp Sönüyorsa",
-      "description": "Kombi Su Basıncı Düşük Durumda. Cihaza Standart Su Ayarına Yani 1,5 Bara Kadar Su Basılması Gerekir. Daha Sonrasın Da Kombi Eski Çalışma Sistemine Dönecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Eco 280fi",
-      "faultCode": "Neon1 Ve Neon2 Yavaş Yanıp Sönüyorsa",
-      "description": "Ntc Sensör Arızası Olarak Bilinen Hata Işıklarıdır. Bu Işıklar Yanıp Sönüyor İse Kombi De Ya Sıcak Su Arızası Meydana Gelir Ya Da Kalorifer Petekleri Isınmaz. Hangi Sensorun Arızalı Olduğunu Tespit İçin Servis İle Görüşünüz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Eco 280fi",
-      "faultCode": "Neon1 Yavaş Yanıp Sönüyorsa, Neon2 Açıksa",
-      "description": "Kombi De Fazla Isınma Olduğundan Dolayı Kombi Kendini Kullanıma Kapamış. Limit Termostat Sorunu Yaşanmaktadır. Baymak Teknik Servis İle Görüşerek Servis İsteyiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Energy Kombide Bu Uyarı Kodu Varsa Kombinin Ateşleme Yapmadığını Belirtir. Bu Durumda Kombiden Verim Alınması Beklenilemez. Yani Kombi Hem Sıcak Su İhtiyacını Hem De Isınma İhtiyacını Karşılamaz. Tüketici Olarak Yapılabilecek Bir İşlem Olmamaktadır. Energy Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Kombide Fazla Isınma Söz Konusu Oldu İse Bu Uyarı Kodu Ekranda Belirmektedir. Bu Durumda Tüketicinin Yapabileceği İşlem Yoktur. Yapılması Gereken İse Energy Kombi Servisi İle İletişime Geçmektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Energy Kombi Ekranında E03 Hata Kodu Belirdi İse Atık Gaz Sisteminde Bulunan Hava Akış Anahtarında Sorun Vardır. Hava Soğuk İse Sert Hava Koşulları Sebebi İle Rüzgârın Bacadan Ters Üflemesi İle Atık Gazı Kombi Aktaramaz Ve Bu Sebeple Kombi Ekranında Bu Uyarı Kodu Belirir. Hava Şartları Normal Durumda İse Hava Prosestatı Ya Da Atık Gazı Dışarıya Ulaştıran Aynı Zamanda Temiz Havayı Dışarıdan İçeriye Ulaştıran Fan Motorunda Sorun Olduğunu Söyleyebiliriz. Bu Durumda Energy Kombi Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Energy Kombi Ekranında Bu Uyarı Kodu Var İse Kalorifer Sensorun De Sorun Vardır. Tesisat Isı Sensoru Arızalı Ya Da Hasar Görmüş Diyebiliriz. Bu Durumda Sensör Değişimi Gerekmektedir. Bu Durumda Direk Olarak Baymak Energy Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Energy Kombide Sıcak Su Alınamadığı Durumlarda Genellikle Kombi Ekranında Beliren Hata Kodudur. Bu Durumda Kombi Sıcak Su Vermez Çünkü Sıcak Su Sensoru Değişimi Gerekir. Energy Teknik Servisi Aramalı Yardım İstemelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Kombideki Su Bittiği Zaman Ekranda Bulunan Hata Kodudur. Kombi Göstergesinde Bu Hata Kodu Var İse Cihazın Basıncı 1 Barın Altında Demektir. Kombi Basıncını Dolum Vanası İle 1,5 Bara Getirin Sonrasında Cihaz Çalışmasına Kaldığı Yerden Devam Edecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E25/26 Arıza Kodu",
-      "description": "Energy Kombide Oluşan Her İki Hata Kodunun Açıklaması Da Aynıdır. Bu Uyarı Kodlarından Biri Kombide Ekranında Belirdi İse Pompa Arızalı Diyebiliriz. Sorunun Pompayla Alakalı Olup Olmadığını Öğrenmeniz İçin Energy Kombi Servisi İle Görüşmeniz Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "E35 Arızası Energy Kombinin Ateşleme Yaptığını Fakat Alev Algılamadığını Belirtmektedir. Bu Durumda Kombiye Reset Atılmalıdır. Reset İşleminden Sonra Energy Kombi Hala E35 Uyarısı Veriyor İse Baymak Kombi Servisi İle İletişime Geçmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Energy",
-      "faultCode": "E96 Arıza Kodu",
-      "description": "Kombiye Ulaşan Voltajın Düşük Olduğunu Bildiren Hata Kodudur. Bu Durumda Voltaj Düzenleyici Regülatör Kullanmalısınız. Regülatör Kullanımı Sonrasında Kombi Ekranında Bulunan E96 Uyarısı Silinecek Kombi Çalışacaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Falke Kombide Bu Uyarı Kodu Varsa Cihaza Gaz Girişi Yetersizdir. Y Da Gaz Geliyordur Fakat Gaz Valfinde Sorun Olması Sebebi İle Cihaz Bunu Algılamıyordur. Cihazın Elektronik Kartında Sorun Olabilir. Bunun Yanı Sıra Gaz Valfi Çalışmıyor Olabilir. Sorunun Biran Önce Çözümlenmesi İçin Falke Kombi Servisi’ni Arayınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Kombide Aşırı Isınma Sorunu Olduğunu Belirten Hata Kodudur. Bu Durumda Cihaz Bloke Olmuştur. Bu Şekilde Kombiyi Kullanamazsınız. Problemin Ortadan Kalkması İçin Falke Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Gaz Sıcaklığını Elektronik Karta Aktaran Ya Da Kombi İçinde Yer Alan Su Aşırı Isındığında Kombiyi Bloke Eden Aşırı Isınma Termostatında Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketici Olarak Direk Falke Kombi Servisi’nden Yardım Almalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Falke Kombi Ekranında E05 Arıza Kodu Belirdi İse Isınma Sensöründe Sorun Olduğu Anlamına Gelmektedir. Bu Durumda Tüketici Olarak Yapabileceğiniz İşlem Yoktur. Kalorifer Isınmasında Sorun Vardır Ve Direkt Falke Servisi’ni 0212 425 09 09 Numaralı Telefondan Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Sıcak Su Sensöründe Arıza Olduğunu Belirten Hata Kodudur. Bu Durumda Sensör Değişimi Gerekmektedir. Falke Kombi Böyle Bir Hata Kodu Verdiğinde Kombiden Sıcak Su Alamazsınız. Baymak Falke Servisi’ni Arayıp Bu Konuda Yardım Almanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Falke Kombide E10 Arızası Kombi Su Basınının 0,3 Barın Altında Olduğunu Gösterir. Bu Durumda Kombi Çalışmaz. Kombinin Altında Yer Alan Doldurma Musluğunu Açmalı Kombi Basıncını 1, Bara Yükseltmelisiniz. Kombi Basıcını Bu Değere Getirdiğinizde Kombi Çalışacaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E25 Arıza Kodu",
-      "description": "Falke Kombide Bu Uyarı Kodu Maksimum Sıcaklık Anlamındadır. Bu Durumda Cihaza Müdahale Etmeniz Mümkün Olmamaktadır. Sorunun Birden Çok Sebebi Olabilmektedir. Mesela Kalorifer Filtresi Tıkalı, Pompa Sıkışık, Eşanjör Kireçli Ya Da Üç Yolu Vana Konum Değiştiriyor Olabilir. Falke Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Falke",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Falke Kombide Cihazın Ateşlemeyi Sağladığını Fakat Alev Oluşturmadığını Bildiren Hata Kodudur. Bu Durumda Cihazı Resetlemeniz Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Lambert Kombinin Ateşlemeyi Başarıyla Yapmadığını Belirten Hata Kodudur. Kombide Ateşleme Başarısızlığı Da Diyebiliriz. Kombi Ateşlemeyi Yapmadığı İçin Hem Sıcak Su Alamazsınız Hem De Petekleriniz Isıtma Yapmaz. Bu Durumda Kombiye Reset Atmak Gerekir. Reset İşlemini Üç Kez Tekrarlamanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Kombinin Aşırı Isınma Termostat Hatası Verdiğini Gösteren Hata Kodudur. Kısacası Cihazın Aşırı Isınma Sebebi İle Bloke Olduğunu Yani Kullanım Dışı Olduğunu Söyleyebiliriz. Bu Durumda Sizin Direk Olarak Lambert Kombi Servisi’ne Ulaşmanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Atık Gaz Sisteminin İyi Şekilde Çalışmaması Sebebi İle Kombinin Arızaya Geçtiğini Belirtir. Bu Durumda Cihaz Bacalı İse Baca Yerinden Çıkmış Diyebiliriz. Baymak Kombi Servisi’ni Aramanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Lambert Kombide E05 Hata Kodu Kalorifer Tesisatı Sensörünün Arızalı Olduğu Anlamına Gelmektedir. Lambert Kombide Genellikle Kış Mevsiminde Bu Arıza Kodu Ekranda Belirebilmektedir. Sorunun Çözümlenmesi İçin Lambert Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Kombi De Sıcak Su Arızasının Yaşandığını Belirleyen E06 Arıza Kodu Ekran Da Olduğu Sürece Kullanıcı Sıcak Su Alamaz. Öncelikle Kombinin Su Basıncına Bakınız. Düşükse 1,5 Bara Kadar Su Basınız. Fakat Basınç Normal Ve Kombi Hala Sıcak Su Vermiyor İse Sensör Arızalı Olabilir. Baymak Servisi İle Görüşmeniz Gereken Bir Durumdur."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Kombide Mevcut Olan Su Basıncının Düşük Olduğu Anlamına Gelmektedir. Cihazın İyi Şekilde Verim Sağlaması İçin İçerisin De 1 İle 2 Arasına Gelecek Kadar Su Basılması Gerekir. Su Basma İşleminden Sonra Kombi Çalışır Durumuna Geri Dönecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E25/26 Arıza Kodu",
-      "description": "Pompanın Arıza Yaptığı Anlamına Gelen Bu Arıza Kodunda Kullanıcının Birkaç Arıza Birden Yaşaması Söz Konusu Olabilir. Mesela Petekler Isınmayabilir, Cihaz Ses Yapabilir, Sıcak Su Akışında Sorun Meydana Gelebilir. Teknik Servis Çağırarak Yardım İstemeniz Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Kombinin Ateşleme Denemesi Yaptıktan Sonra Alevlenme Almadığını Belirten Koddur. Bu Sorun Da Cihaz Alev Almadığı İçin Kombi Çalışma Sergilemez. Baymak Servisi’ni Arayarak Sorunun Çözümü Hakkında Bilgi Almanız Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert",
-      "faultCode": "E96 Arıza Kodu",
-      "description": "Kombiye Gelen Voltajlar Da Düşüklük Yaşandığını Ve Bu Sebeple De Cihazın Çalışmadığını Belirtmek İsteyen Arıza Kodudur. Bu Kodda Kullanıcı Regülatör Kullanmalıdır. Çünkü Bu Sorun Sık Sık Yaşanırsa Cihaza Kalıcı Hasarlar Verebilir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Kombiye Olan Gaz Girişinin Yetersiz Durumda Olduğunu Belirten Koddur. Yani Bu Durumda Cihaz Ateşleme Yapamaz Ve Verim Sağlamaz. Ana Kartta Yahut Gaz Gurubun Da Sorun Oluşmuş Olabilir. Baymak Servisi İle Görüşerek Yardım İsteyiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Kombi Fazla Isınmış Ve Kullanım Dışı Olmuş Durumda. Bu Şekilde Kombi Kullanılması Mümkün Olmamaktadır. Limit Termostat Hasar Görmüş Olabilir. Baymak Kombi Servis İle Görüşmeniz Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Baca Tip Kombi Çeşitlerin De Baca Sensörünün Hasar Gördüğünü Belirten Koddur. Bu Şekilde Kombinin Ve Ortamın Isısını Ölçmeye Yarayan Bu Aparat İşlevini Yerine Getiremez Ve Elektronik Karta Bilgi Yollayamaz. Baymak Teknik Servis İle Görüşünüz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Tesisatı Isıtma Amaçlı Kullanılan Sensorun Hasarlı Olduğunu Belirten Koddur. Bu Kod Gösterge De Belirdiği Sırada Kombinin Petekleri Isıtmada Zorluk Yaşadığını Anlayabiliriz. Sensör Değişirse Problem Ortadan Kalkacaktır. Servisi Arayarak Yardım Talebin De Bulunmanız Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Sık Yaşanan Arıza Kodlarından Biri Olan E06 Hata Kodu, Cihazın Sıcak Su Vermediğini Belirten Koddur. Bu Kod Ekranda Belirdiği Sırada Kullanıcı Sıcak Su Alamaz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Cihazın Su Basıncın Da Düşme Yaşandığını Gösteren Arıza Kodudur. Bu Arıza Kodu İle Karşılaştığınız Zaman Cihaza Su Basmanız Gerektiğini Anlayabilirsiniz. Su Basıncı 1,5 Bara Ulaşana Kadar Su Basmanız Gerekir. Daha Sonrasın Da Arıza Kodu Devam Ederse Cihaza Bir Defa Reset Atarsanız Kombi Eski Çalışma Sistemine Geri Dönecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E25 Arıza Kodu",
-      "description": "Kombide Aşırı Isınmam Oluştuğu Zamanlarda Cihazda E25 Kombi Hata Kodu Belirmektedir. Bu Kod Filtrelerin Tıkandığını, Ana Eşanjörün Kireçlendiğini, Pompanın Sıkışmaya Uğradığını Veya Üç Yollu Vanada Konum Değiştirme Olabileceğini Anlatmaktadır. Konuyla Alakalı Olarak Servis Desteği İstemeniz Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Lambert Attivo",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Cihazın Alev Almadığını Belirten Arıza Kodudur. Bu Kod Gösterge De Belirdiği Zaman Kombiye Gaz Girişi Mevcut Mu Vanalar Açık Mı Bakınız. Eğer Vanalar Açıksa Cihaza Birkaç Kez Üst Üste Olmak Şartı İle Reset Atınız. Resetten Sonra Da Kombi Düzelmez İse Gaz Valfinde, İyonlarda, Elektrotlar Da Veya Kartta Sorun Olabilir. Servis Çağırmanız Gerekir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E01 Arıza Kodu",
-      "description": "Kombiye Gaz Girişinde Problem Olduğunu Belirten Hata Kodudur. Bu Durumda Baxi Luna Kombinin Gaz Valfi Ya Da Ana Kartı Arızalı Diyebiliriz. Bu Parçaların İkisinden Birinin Arızalı Olması Demek Kombiye Gaz Girişinin Yeterli Olmadığı Anlamına Gelir Ve Bu Durumda Cihaz Çalışmaz. Yapmanız Gereken Luna Kombi Servisi’ni Aramaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E02 Arıza Kodu",
-      "description": "Aşırı Isınma Termostatı Veya Limit Termostatı Arızalı Olduğunda Luna Kombi Ekranında Bu Uyarı Kodu Belirir. Kombinin İçindeki Su Aşırı Isınır İse Limit Termostatı Direk Kombiyi Bloke Eder. Bu Durumda Kombinin Parçalarında Sorun Olduğunu Söyleyebiliriz. Yalnız Tüketici Olarak Yapabileceğiniz İşlem Yoktur, Baymak Luna Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E03 Arıza Kodu",
-      "description": "Baca Tip Kombilerde Baca Sensöründe Sorun Olduğunda Ya Da Kablolarında Kopma Meydana Geldiğinde Luna Kombi Ekranında Bu Uyarı Kodu Belirir. Baca Sensoru Ortam Ve Aynı Zamanda Kombinin İç Sıcaklığını Ölçme, Bu Durumu Elektronik Karta Aktarma Görevindedir. Cihaza Müdahale Etmemeli Direk Olarak Baymak Luna Servisi Çağrı Merkezini Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E05 Arıza Kodu",
-      "description": "Tesisat Sensöründe Problem Olduğunda Ya Da Arıza Oluştuğunda Luna Kombi Ekranında E05 Arıza Kodu Belirir. Bu Durumda Direk Olarak Sensör Değişimi Gerekeceği İçin Luna Kombi Servisi İle İletişime Geçmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E06 Arıza Kodu",
-      "description": "Luna Kombide E06 Arıza Kodu Sıcak Su Sensöründe Sorun Olduğu Anlamındadır. Bu Durumda Sensör Değişimi Yapılana Kadar Kombi Sıcak Su Sağlamaz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Luna Kombide Basınç Göstergesinin Azaldığını Daha Doğrusu Kombinin Suyunun Azaldığını Belirten Hata Kodudur. Bu Durumda Kombinin Doldurma Musluğunu Açmalı Kombiye 1,5 Bara Kadar Su Basmalısınız. Bu İşlem Sonrasında Kombi Ekranında Bulunan Arıza Kodu Yok Olacak Kombi Yeniden Çalışacaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E25 Arıza Kodu",
-      "description": "Cihazın Çok Fazla Isındığı Anlamına Gelen Hata Kodudur. Bu Durumda Eşanjör Tıkalı, Kalorifer Filtresi Kirli, Üç Yollu Vana Konum Değiştiriyor Ya Da Pompa Sıkışıyor Diyebiliriz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E35 Arıza Kodu",
-      "description": "Luna Kombinin Alev Oluşturmada Güçlük Çektiğini Ve Alevi Oluşturmadığını Bildiren Arıza Kodudur. Bu Durumda Kombi Ateşlemeyi Yapar Fakat Alev Oluşumu Engellenir. Arızanın Çözümlenmesi Ve Sorunun Giderilmesi İçin Luna Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E80 Arıza Kodu",
-      "description": "Luna Kombi Ekranında E80 Uyarısı Varsa Bu Kombinin Beyninde Yani Ana Kartında Sorun Olduğu Anlamına Gelmektedir. Baymak Luna Servisi’ni Arayarak Yardım Talebinde Bulunun."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E97 Arıza Kodu",
-      "description": "Luna Kombide Beliren E97 Arıza Kodu Elektrik Voltajlarından Kaynaklanmaktadır. Daireye Gelen Voltaj Düşük İse Ya Da Kombinin Ana Kartında Sorun Varsa Bu Uyarı Kodu Kombi Ekranında Belirir. Bu Durumda Luna Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E98/99 Arıza Kodu",
-      "description": "Luna Kombi Ekranında Bu İki Hata Kodundan Biri Varsa Elektronik Kartta Sorun Olduğunu Anlayabiliriz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E10 Arıza Kodu",
-      "description": "Dairenin Sıcaklığını Ana Karta Aktaran Sensörde Sorun Olduğunda Star Kombide Bu Uyarı Kodu Belirir. Bu Durumda Sensorun Görevini Gerçekleştirmediğini Söyleyebiliriz. Teknik Destek Ve Yardım İçin Star Kombi Servisi İle İletişime Geçmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E20 Arıza Kodu",
-      "description": "Star Kombinin Kalorifer Sensöründe Sorun Olduğunda Göstergede Bu Hata Kodu Belirir. Bu Durumda Petekler Hiçbir Şekilde Isı Sağlamaz. Star Kombi Servisi’ni Arayarak Bu Konuda Yardım Alınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E28 Arıza Kodu",
-      "description": "Bacalı Kombilerde Bulunan Baca Sensoru Arıza Yaptığı Zaman Kombi Ekranında Bu Uyarı Kodu Belirir. Bu Durumda Ortamın Aynı Zamanda Kombinin İç Sıcaklığını Algılayıp Sonrasında Elektronik Karta Bilgisini Veren Parçada Sorun Olduğunu Söyleyebiliriz. Baymak Star Servisi İle İletişime Geçmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E50 Arıza Kodu",
-      "description": "Star Kombide Sıcak Su Sensöründe Sorun Olduğunda Kombide E50 Uyarı Kodu Belirir. Oldukça Çok Yaşanan Bu Arızada Yapabileceğiniz İşlem Olmamaktadır. Yapmanız Gereken Tek Şey İse Sensör Değişimi Gerekeceği İçin Star Kombi Servisi’nden Yardım Almaktır."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E110 Arıza Kodu",
-      "description": "Aşırı Isınma Termostatın Da Sorun Ya Da Hasar Var İse Kombi Göstergesinde E110 Arıza Kodu Belirmektedir. Kombide Aşırı Isınma Termostatının Görevi; Kombi İçindeki Su Fazla Isındığı Zaman Direk Devreye Girmek Ve Cihazı Bloke Etmektir. Bu Durumda Sizin Direk Baymak Kombi Servisi’nden Yardım Almanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E119 Arıza Kodu",
-      "description": "Star Kombideki Suyun Azaldığını Gösteren Uyarı Kodudur. Bu Durumda Kombinin Alt Tarafında Yer Alan Doldurma Musluğunu Açmalı Ve Basıncı 1,5 Bar Değerine Ulaştırmalısınız. İşlem Sonrası Doldurma Musluğunu Kapatın Cihaz Çalışmasına Devam Edecektir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Brotje Star",
-      "faultCode": "E125 Arıza Kodu",
-      "description": "Star Kombi Ekranında E125 Arıza Uyarısı Var İse Cihazın İçinde Yer Alan Pompa Kalorifer Tesisatındaki Suyu Çevirme Görevini Yapmıyordur. Bu Durumda Sorunun Tespiti Ve Çözümü İçin Star Kombi Servisi’ni Aramalısınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E130 Arıza Kodu",
-      "description": "Ortamdaki Sıcaklığı Kombiye Aktaran Baca Sensöründe Arıza Olduğunda Kombide Bu Uyarı Kodu Mevcut Olur. Yani Bu Durumda Sensör Faz Isınmış Diyebiliriz. Böyle Bir Durumda Star Kombi Servisi’ni Arayınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E133 Arıza Kodu",
-      "description": "Star Kombide E133 Arızası Kombinin Ateşleme Yapmadığını Yani Alev Oluşturmadığını Bildirir. Bunun Sebebi İse Kombinin Ateşleme Yapacak Gazı Bulamamasıdır. Bu Durumda Gaz Vanaları Kontrol Edilmeli Açık Duruma Getirilmelidir. Gaz Açık İse Gazın Kesilip Kesilmediğine Dikkat Edilmelidir. Sorun Yok İse Star Kombi Servisi’nden Yardım Alınız."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E151 Arıza Kodu",
-      "description": "Star Kombide Elektronik Kart Arızasının Olduğunu Belirten Uyarı Kodudur. Bu Durumda Cihaza Elektrik Girişi Olmaz Ve Dolayısıyla Cihaz Çalışmaz. Bu Durumda Ya Kart Tamiri Ya Da Değişimi Gerekmektedir. Baymak Star Servisi’ni Arayarak Yardım İstemelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E156 Arıza Kodu",
-      "description": "Bu Hata Kodu Star Kombi Üzerinde Belirdi İse Cihaz Düşük Voltaj Sebebi İle Kapanmaktadır. Bunun Sebebi İse Voltajı Güçsüz Bulmasıdır. Voltaj Düzelene Kadar Tüketici Olarak Yapabileceğiniz İşlem Yoktur. Voltaj Düzenleyici Regülatör Kullanmanız Gerekmektedir. Voltaj Düşüklüğü Sebebi İle Kombide Bulunan Parçalarda Yanma Ya Da Arıza Oluşma Olasılığı Fazladır. Voltaj Düzenleyici Regülatör Cihazı Sahibi Olmak İçin Baymak Star Kombi Servisi İle Görüşmelisiniz."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E160 Arıza Kodu",
-      "description": "Cihazın Yanma İçin Gereken Havayı Dışarıdan Alan Kötü Gazı İse Dışarıya Aktaran Fan Motorunda Sorun Olduğunu Belirten Hata Kodudur. Star Kombide Bu Uyarı Kodu Belirir İse Cihaz Çalışırken Ses Yapabilir Ya Da Çalışmasını Durdurabilir. Kısa Sürede Star Kombi Servisi’nden Yardım Almanız Gerekmektedir."
-    },
-    { 
-      "brand": "Baymak",
-      "model": "Luna",
-      "faultCode": "E193 Arıza Kodu",
-      "description": "Tesisatta Hava Oluştuğunda Star Kombi Göstergesinde Bu Uyarı Kodu Belirmektedir. Hava Oluşumu Sebebi İle Kombide Aşırı Isınma Meydana Gelmiş Demektir. Bu Duruma Tüketici Olarak Müdahaleniz Söz Konusu Değildir."
+    {
+        "brand": "Airfel",
+        "model": "Digifel",
+        "faultCodes": [
+            "C 20 Arıza Kodu",
+            "C 40 Arıza Kodu",
+            "C 28 Arıza Kodu",
+            "C 78 Arıza Kodu",
+            "C 50 Arıza Kodu",
+            "C1 05 Arıza Kodu",
+            "C1 11 Arıza Kodu",
+            "C1 10 Arıza Kodu",
+            "C1 33 Arıza Kodu",
+            "C1 17 Arıza Kodu",
+            "C1 18 Arıza Kodu",
+            "C1 29 Arıza Kodu",
+            "C1 30 Arıza Kodu",
+            "C1 56 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Kalorifer Gidiş Suyu Sensör De Arıza Mevcut. Tesisat Gidiş Suyu Borusunun Üstün De Bulunan Sensor Arıza Yapmış Veya Kısa Devre Oluşmuş Olabilir. Bu Sebeple De Böyle Bir Arıza İle Karşılaşıyor Olabilirsiniz. Servis Çağırmanız Gerekir.",
+            "Kalorifer Dönüş Suyu Sensör De Sorun Var. Kalorifer Dönüş Suyu borusunun Üzerinde Yer Alan Sensor Arıza Yapmış. Değişimi Gerekebilir. Konuyla İlgili Servisi Aramanız Gerekmektedir.",
+            "Baca Gazı Sensorun De Arıza Olduğunu Belirten Hata Kodudur. Baca Gazının Sıcaklığını Kontrol Eden Bu Sensor Eğer Arızalanırsa Cihaz Böyle Bir Arıza Kodu Verir. Resetleme İşlemi Bu Arızada İşe Yaramayabilir. Servis Çağırmanız Gerekir.",
+            "Su Basıncını Okumaya Yarayan Su Basınç Sensör De Arıza Olduğu Belirten Koddur. Servis Çağırmanız Gerekmektedir.",
+            "Plakalı Eşanjör ün Üst Kısmında Bulunan Sensör De Arıza Meydana Gelmiş. Bu Durumda Sıcak Su Almanız Zorlaşabilir. Airfel Kombi Servisi Arayın.",
+            "Hava Atma Programının Devrede Olduğunu Bildiren Koddur. Bu Arıza Kodu Belirdikten Sonra Ekranda Anahtar İşareti Belirlenir. Belirli Bir Süre Sonra Kombi Normal Çalışmasına Devam Eder.",
+            "Maksimum Sıcaklık Seviyesinin Aşıldığını Belirten Koddur. Senyörler Üstünden Okunan Isı Değeri Maksimumu Aşmışsa Ekranda Bu Arıza Kodu Belirir. Reste Atın Ve Bir Süre Bekleyin. Eğer Düzelmez İse Veya Bu Hata İle Sık Sık Karşılaşıyorsanız Servis Çağırınız.",
+            "Kalorifer Gidiş Suyu Maksimum Isı Seviyesini Aştığı Zaman Bu Durumda Limit Termostat (Aşırı Isı Termostatı) Kombiyi Korumak Amaçlı Devreye Girer Ve Cihaz Çalışma Dışı Kalır. Daha Sonrasında Kombi Bu Arızayı Verir. Reste Atınız Ve Biraz Bekleyiniz. Kombi Devreye Girer Ve Çalışmaya Devam Eder. Şayet Anormal Çalışma Sergiler İse Servis Çağırınız.",
+            "Kombide Ateşleme Arızası Olduğunu Bildiren Hata Kodudur. Cihazın Gaz Vanalarını Kontrol Ediniz. Açık Olmayabilir. Eğer Açık İse Kombiye Reste Atınız. Düzelmiyor İse Kombinin Gaz Valfi, İyonizasyonu Veya Elektronik Kartı Arızalı Olabilir. Servis Çağırıp Kontrol Ettiniz.",
+            "Kombinin İçerisinde Ki Mevcut Suyun 2,5 Barı Aştığını Belirten Koddur. Eğer Kombi Bu Şekilde Çalışırsa Parçalara Zarar Verebilir. Peteklerin Hava Alma Müşöründen Cihazın Basıncı 1,5 Olana Kadar Suyu Tahliye Etmeniz Gerekir.",
+            "Kombinin Su Basıncının Düşük Olduğunu Bildiren Arıza Kodudur. Bu Arıza Kodunda Kombi Çalışmaz Ve Verim Sağlamaz. Su Bar Değeri 1,5 Olana Kadar Kombiye Su Basmanız Gerekir. Daha Sonra Kombi Çalışmasını Sürdürür.",
+            "Fan Motoru Sorunu. Kombi Çalışmaya Başladığı Zaman Bu Arızayı Veriyor İse Fan Motoru Çalışmıyor Demektir. Tamiri Veya Değişimi Gerekebilir. Teknik Servis İle Görüşünüz.",
+            "Baca Gaz Sıcaklık Seviyesinin 80/90 Derece Olduğunu Bildiren Arıza Kodudur. Yoğuşma Suyu Giderin De Yahut Bacada Tıkanma Varsa Kombi Böyle Bir Arıza Verebilir. Airfel Kombi Servis İle Görüşünüz.",
+            "Voltajlar Da Hata Olduğunu Belirten Arıza Kodudur. Kullanıcının Voltaj Düzenleyici Regülatör Taktırması Gerekmektedir. Eğer Voltajlar Da Daima Oynama Olursa Cihazın Elektronik Kartı Hasar Görebilir. Konuyla Alakalı Olarak Servisimizi Arayabilirsiniz."
+        ]
+    },
+    {
+        "brand": "Airfel",
+        "model": "Ecofel",
+        "faultCodes": [
+            "1. LED Yanıp Sönmekte, 2. LED Yanıyor Ve 3. LED Yanmıyor İse",
+            "1. LED Yanmıyor, 2. LED Yanıyor Ve 3. LED Yanmıyor İse",
+            "1. LED Ve 2. LED Yanıyor, 3. LED Yanmıyor İse",
+            "1. LED Yanmıyor, 2. LED Ve 3. LED Yanıyor İse",
+            "1. LED Yanmıyor, 2. LED Ve 3. LED Yanıp Sönmekte İse",
+            "1. LED Ve 2. LED Yanıp Sönüyor, 3. LED Yanmıyor İse",
+            "1. LED Yanıp Sönüyor, 2. LED Yanmıyor Ve 3. LED Yanıp Sönüyor İse",
+            "1. LED, 2. LED Ve 3. LED Yanıyor İse",
+            "1. LED, 2. LED Ve 3. LED Yanıp Sönüyor İse",
+            "1. LED Ve 2. LED Yanmıyor, 3. LED Yanıp Sönüyor İse",
+            "1. LED Yanıp Sönüyor, 2. LED Ve 3. LED Yanmıyor İse",
+            "1. LED Ve 2. LED Yanıp Sönüyor, 3. LED Yanmıyor İse",
+            "1. LED Yanıp Sönüyor, 2. LED Ve 3. LED Yanmıyor İse",
+            "1. LED Yanıyor, 2. LED Yanmıyor, 3. LED Yanıyor İse",
+            "1. LED Ve 2. LED Yanmıyor, 3. LED Yanıyor İse",
+            "1. LED Yanıyor, 2. LED Ve 3. LED Yanmıyor İse",
+            "1. LED, 2. LED Ve 3. LED Yanmıyor İse"
+        ],
+        "descriptions": [
+            "Kombinin Su Basıncı Düşük Durumda. Cihazın Su Seviyesini 1,5 Bara Ayarlamanız Gerekmektedir.",
+            "Kombide Ateşleme Var Fakat Alev Oluşmuyor. Bu Kodda Cihaz Ateşleme Yapmayı Dener Fakat Alev Almadığından Çalışmaz. Haliyle Kullanıcı Ne Sıcak Su Alabilir Nede Petekleri Kullanabilir. Bu Durumda Cihaza Birkaç Kez Reset Atınız. Düzelmiyor İse Gaz Valfi, Elektronik Kart Veya İyonizasyon Sorunlu Olabilir. Servis Çağırınız.",
+            "Kombinin Isı Seviyesi Maksimuma Ulaşmış Ve Emniyet Termostat Devreye Girerek Cihazı Kapamış. Kombiye Reset Atın Ve Bir Süre Bekleyin. Cihaz Normale Dönecektir.",
+            "Cihazda Atık Gaz Arızası Olduğunu Bildiren Hatadır. Kullanıcının Müdahale Edeceği Bir Durum Olmadığından Servis Çağırması Gerekir.",
+            "Kalorifer Sensöru Arızası. Bu Hatada Kullanıcı Peteklerden Verim Alamayabilir Ve Sensorun Değişimi Gerekebilir. Servis İle İrtibata Geçiniz.",
+            "Sıcak Su Sensöru Arızası Olduğunu Bildiren Hatadır. Kullanıcı Sıcak Su Alamayabilir. Servis Çağırmanız Gerekiyor.",
+            "Yanlış İyonizasyon Arızası Mevcut. İyonizasyon Elektrotu Alevin Oluştuğunu Göremiyor. Kombiye Gaz Gelmiyor Olabilir Gaz Var İse İyonizasyon Elektrotu, Gaz Grubu Veya Elektronik Kart Arızalı Olabilir. Servis Çağırmanız Gerekmektedir.",
+            "Pompa Blokaj Anlamına Gelen Bu Hatada, Pompa Arızalanmış Olabilir. Servis Çağırarak Cihazı Kontrol Ettiriniz.",
+            "Kombinin Kalorifer Ve Sıcak Su Kısmının Çalışmasını Beklemeden Tuşlara Basılarak Yapılan Testtir. Bu İşlemi Teknisyen Yapar. Mod Tuşlarına Basarak Kombiyi Çalıştırır.",
+            "Peteklerin Çalışma İsteği Olduğunu Belirtir. Cihaz Normal Çalışma Sergilemektedir. Sorun Yoktur.",
+            "Kombi Kullanım Suyu İsteğinde Olduğunu Bildirmektedir. Cihazda Sorun Yoktur.",
+            "Tesisat Sistemi Donmaya Karşı Koruma Aldığını Belirtmektedir. Herhangi Bir Arıza Yoktur.",
+            "Cihazın Normal Çalışma Sistemidir. Herhangi Bir Sorun Mevcut Değil.",
+            "Cihazın Sıcak Su Ve Kış Modül Aktif Durumda. Herhangi Bir Problem Yoktur. Norma Çalışmadır.",
+            "Sıcak Su Ve Kış Modül Pasif Durumda. Cihazda Arıza Yoktur. Normal Çalışma Sistemidir.",
+            "Sıcak Su Ve Yaz Modunun Aktif Olduğunu Belirten Koddur. Kombide Sorun Yoktur.",
+            "Sıcak Su Ve Yaz Modül Pasif Durumda Yahut Beklemede. Normal Çalışmadır. Cihazda Sorun Yoktur."
+        ]
+    },
+    {
+        "brand": "Airfel",
+        "model": "Family Cond",
+        "faultCodes": [
+            "10 Arıza Kodu",
+            "11 Arıza Kodu",
+            "12 Arıza Kodu",
+            "13 Arıza Kodu",
+            "14 Arıza Kodu",
+            "15 Arıza Kodu",
+            "20 Arıza Kodu",
+            "21/22 Arıza Kodu",
+            "24/25 Arıza Kodu",
+            "26/27 Arıza Kodu",
+            "28 Arıza Kodu",
+            "29 Arıza Kodu",
+            "30/31/36/38 Arıza Kodu",
+            "33/34 Arıza Kodu",
+            "35/37 Arıza Kodu",
+            "40 Arıza Kodu",
+            "41 Arıza Kodu",
+            "42 Arıza Kodu",
+            "50-59 Arıza Kodu",
+            "60 Arıza Kodu",
+            "70/72 Arıza Kodu",
+            "71 Arıza Kodu",
+            "77 Arıza Kodu",
+            "78/79 Arıza Kodu",
+            "80/82 Arıza Kodu",
+            "81/83 Arıza Kodu",
+            "92/93 Arıza Kodu",
+            "94/95 Arıza Kodu",
+            "JO Arıza Kodu",
+            "J1 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Alev Oluşumunda Arıza Mevcut. Cihaza Birkaç Kez Reset Atınız. Düzelmiyor İse, Gaz Gurubunda, İyonizasyon Da Veya Elektronik Kartta Sorun Olabilir. Servis Çağırınız.",
+            "Kombinin Parazit Alev Yaptığını Gösteren Koddur. Kombiye Reset Atıp Bir Süre Bekleyiniz. Cihaz Düzelecektir.",
+            "Kombi Kendiliğinde Kapanmış Ve Tekrar Çalışmaya Başlamış. Sürekli Olursa Servise Başvurunuz.",
+            "Gaz Giriş Basıncı En Düşük Seviyede. Kombiye Reset Atmayı Deneyiniz. Düzelmediği Takdir De Servis Çağırınız.",
+            "Kombiye Gaz Giriş Hissedilemiyor. Gaz Valfin De Veya Elektronik Kartta Sorun Olabilir. Servis Çağırınız.",
+            "Kombinin Çalışma Sistemini Kesen Ve Onu Korumaya Yarayan Stand By Modül Devreye Girmiş Durumda. Servis Çağırınız.",
+            " Aşırı Isınma Veya Brülör Termostatın Da Arıza Olabilir. Cihaza Reset Atınız. Düzelmiyor İse Direkt Olarak Servise Başvurunuz.",
+            "Duman Sondasında Kısa Devre Veya En Yüksek Sıcaklık Meydana Gelmiş. Kullanıcı Müdahale Edemez. Servis Çağırıp Cihazı Kontrol Ettirmesi Gerekir.",
+            "Kombinin Giriş Sondasın Da Görülen En Yüksek Sıcaklık Olduğunu Belirten Arıza Kodudur. Sizin Müdahale Edebileceğiniz Bir Durum Söz Konusu Olmadığından Servise Başvurmanız Gerekir.",
+            "Cihazın Dönüş Sondasının En Yüksek Sıcaklıkta Olduğunu Belirten Koddur. Servis Çağırınız.",
+            "Giriş Ve Çıkış Sondası Açık Durumda Kalmış. Servis Çağırmanız Gerekir. Kullanıcının Müdahale Etmemesi Gerekmektedir.",
+            "Baca Sonrası Açık Kalmış Durumda. Servis Çağırarak Sorunun Çözümü Hakkında Yardım İsteyiniz.",
+            "Bu Dört Arıza Kodu Da Aynı Anlamı Taşımaktadır. Hava Basınç Anahtar Ve Duman Çıkış Arızası. Kullanıcının Müdahale Edeceği Bir Durum Söz Konusu Değildir. Servis Çağırmanız Gerekir.",
+            "Fanın Durmaksızın Devir Başında Olduğunu Belirten Arıza Kodudur. Fanın Tamiri Yâda Değişimi Gerekebilir. Servise Başvurunuz.",
+            " Fanın Devir Sonuna Geldiğini Veya En Yüksek Çalıştığını Bildiren Hata Kodudur. Airfel Teknik Servis İle İrtibata Geçiniz.",
+            "Sistemde Ki Su Bar Seviyesi Çok Fazla Yükselmiş Durumda. Şayet Su Basıncı 2,5 Barı Aştı İse Kombi Bu Arızayı Verir. Peteklerin Yan Taraflarında Yer Alan Hava Alma Müşöründen Fazla Basıncı Almanız Gerekir. Standart Bar Seviyesi 1,5 bardır.",
+            "Kombinin Su Basınç Ayarı Sıfırlanmış. Cihaza Doldurma Musluğunun Yardımı İle Su Basılması Gerekir. Basınç Seviyesi 1,5 Olana Kadar Su Basınız.",
+            "Su Basınç Anahtar Arızası Mevcut. Konuyla Alakalı Detaylı Bilgi İçin Servisi Arayınız.",
+            "Elektronik Panosunda Sorun Olduğunu Belirten Koddur. Servis İle İrtibata Geçerek Sorunun Çözümü Hakkında Yardım İsteyiniz.",
+            "Sıcak Su Sensörünün Arızalı Olduğunu Belirten Arıza Kodudur. Kullanıcı Sıcak Su İsteğini Karşılamayabilir. Servis Çağrılması Gereken Bir Durumdur.",
+            " Ana Sonra Açık Veya Kısa Devre Yapmış Durumda. Servisin Müdahale Edeceği Teknik Bir Arızadır.",
+            "Giriş Sonda Sıcaklığı En Yüksek Konumda. Servise Başvurunuz.",
+            "Limit Termostatta Düşük Sıcaklık Mevcut. Kombiye Birkaç Kez Reset Atınız. Düzelmiyor İse Servis Çağırınız.",
+            "Çıkış Ve Giriş Diferansiyel Arızası Mevcut. Kullanıcının Müdahale Edebileceği Bir Durum Söz Konusu Değildir. Servis Tarafından Müdahale Gerekir.",
+            "Kombi Normal Çalışmıyor. Arızaya Geçmiş. Bu Durumda Kullanıcı Müdahale Edemez. Sorunun Tespiti İçin Servis Çağrılması Gerekir.",
+            "Cihaz Arızaya Geçmiş. Kombiye Reset Atıp Bekleyiniz. Kendiliğinden Düzelecektir.",
+            "Yoğuşma Suyu Sensöru Arıza Görmüş. Kullanıcı Müdahale Edemez. Cihaz Arızaya Geçebilir. Servis Çağırmanız Gerekmektedir.",
+            "Yoğuşma Suyu Sensöru Açık Devre Yapmış Durumda. Servis Çağırmanız Gereken Bir Durum Söz Konusudur.",
+            "Elektronik Kartın Bağlantısının Yanlış Yapıldığını Gösteren Koddur. Servis Çağırmanız Gereken Bir Durumdur.",
+            "Kablolu Uzaktan Kumanda Birleşmesi Mevcut. Servis Çağırınız."
+        ]
+    },
+    {
+        "brand": "Alarko",
+        "model": "Serena",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "H20 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E14 Arıza Kodu",
+            "E22 Arıza Kodu",
+            "E35 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Kombinin Ateşleme İşlemini Gerçekleştiremediğini Belirten Koddur. Bu Durumda Cihazdan Verim Alınması Söz Konusu Olamaz. Kombiye Gazın Gelip Gelmediğini Kontrol Ediniz. Eğer Gaz Girişi Var İse Kombiye Birkaç Defa Olmak Şartı İle Reset Atınız. Resetten Sonrada Düzelmez İse Gaz Armatürün De, İyonlarda, Elektrotlarda Veya Kartta Sorun Olabilir. Alarko Serena Servisi Tarafından Müdahale Gerekir.",
+            "Cihazda Limit Termostat Denilen Bir Parça Mevcuttur. Bu Parça Cihaz Aşırı Isındığı Zamanlarda Devreye Girip Kombiye Olası Zararlardan Korumaktadır. Eğer Kombi De Böyle Bir Arıza Kodu Meydana Gelir İse Limit Termostatının Hasar Gördüğünü Anlayabiliriz. Konuyla Alakalı Olarak Servis Çağırmanız Gerekir.",
+            "Kombi İçerisinde Ki Su Basıncının Bittiğini Ve Bu Sebeple De Cihazın Çalışmadığını Belirten Arıza Kodudur. Bu Kod Göstergede Belirdiği Anda Kombiye 1 İle 2 Arasına Kadar Su Basmanız Gerekmektedir. Sonrasında Cihaz Eski Verimine Geri Dönecektir.",
+            "Tesisat Sensörün De Arıza Oluştuğunu Gösteren Arıza Kodudur. Tüketici Kaloriferleri Isıtmada Problem Yaşayabilir. Servis Tarafından Sensörün Değişimi Gerekir. Bu Sensör Yüzeysel Sensör Olarak Da Bilinmektedir.",
+            "Kombi Sıcak Su Sensörün De Arıza Oluştuğunu Gösteren Koddur. Bu Esnada Kullanıcı Sıcak Su Alamaz. Veya Sıcak Su Bir Süre Akar Bir Süre Akmaz. Alarko Servisi’ni Çağırıp Kombiye Müdahale Ettiriniz.",
+            "Baca Tıkalı Olabilir Yahut Baca Bağlantılarında Gevşeme Meydana Gelmiş Olabilir. Bu Tip Durumlar Da Kombi Bu Arıza Kodunu Verir. Servis Tarafından Müdahale Gereklidir.",
+            "Cihazın Parametre Ayarında Bozukluk Meydana Gelmiş. Bu Sebeple De Cihaz Eski Çalışma Sistemini Sürdüremez. Servis Tarafından Parametre Ayarlarının Yapılması Gerekir.",
+            "Kombi Ateşleme İşlemini Yapıyor Ama Alev Almadığından Dolayı Geri Sönüyor Ve Verim Sağlamıyor. Gazla Alakalı Arıza Meydana Gelmiş Olabilir. Alarko Kombi Servisi’ni Çağırınız."
+        ]
+    },
+    {
+        "brand": "Alarko",
+        "model": "Trendy",
+        "faultCodes": [
+            "80 Ledi Yanıp Sönüyor İse",
+            "80 Ve 70 Ledi Yanıp Sönüyor İse",
+            "80 Ve 60 Ledi Yanıp Sönüyor İse",
+            "60 Ledi Yanıp Sönüyor İse",
+            "70 Ve 60 Ledi Yanıp Sönüyor İse",
+            "50 Ledi Yanıp Sönüyor İse",
+            "40 Ledi Yanıp Sönüyor İse"
+        ],
+        "descriptions": [
+            "Cihaz Kendini Kullanıma Kapatmış Durumda. Bu Sebeple De Kombi Ateşleme Yaparken Alev Almadığından Dolayı Verim Sağlıyor. Alarko Trendy Servisi’ni Aramanız Gerekir.",
+            "Kombinin İçinde Mevcut Olan Isı En Yükseğe Ulaştığından Dolayı Kombi İşlevlerini Geçici Olarak Kilitlemiş Demektir. Cihaza Reset Atınız. Bir Süre Müdahale Etmeyiniz. Düzelmesini Bekleyiniz. Düzelmiyor İse Servis Çağırınız.",
+            "Cihazın Bacasının Çekimin De Problem Yaşandığını Belirleyen Hata Bildirimleridir. Acil Olarak Kombi Bacasını Kontrol Ettirmeniz Gerekmektedir.",
+            "Kombinin Hava Akım Sorunu Mevcut. Fanın Da Arıza Meydana Gelmiş Veya Baca Çekim Gücünü Kaybetmiş Olabilir. Teknik Servis’ten Yardım Almanız Gereken Bir Durumdur.",
+            "Kombinin İçerisin De Ki Su Basıncı Düşük. Kombiye Su Basıldığı Takdir De Sorun Çözümlenecektir. Standart Su Bar Ayarı 1,5 Bardır.",
+            "Kombinin Sıcak Su Akıtmasın Da Ki Etmen Olan Parçasın Da Hasar Meydana Gelmiş Durumda. Tüketici Sıcak Suyu Almakta Zorluk Çekebilir Veya Sıcak Su Hiç Akmayabilir. Sensör Değişirse Sorun Çözümlenir.",
+            "Kombinin İçerisin De Petekleri Isıtmaya Yarayan Sensör Bulunmaktadır. Eğer Kombi De Bu 40 Ledi Yanıp Sönüyor İse Bu Sensör De Arıza Var Demektir. Cihazın Derecesi Yükseltilse De Petekler Isınmayabilir. Servis Çağırmanız Gerekir."
+        ]
+    },
+    {
+        "brand": "Alarko",
+        "model": "Trendy-D",
+        "faultCodes": [
+            "F5 + İng Anahtarı Arıza Kodu",
+            "F4 + Reset + İng Anahtarı Arıza Kodu",
+            "F4 + İng Anahtarı Arıza Kodu",
+            "F3 + İng Anahtarı Arıza Kodu",
+            "F2 + İng Anahtarı Arıza Kodu",
+            "F1 + Reset + İng Anahtarı Kodu",
+            "F0 + İng Anahtarı Arıza Kodu"
+        ],
+        "descriptions": [
+            "Hava Akımın Da Arıza Meydana Geldiği Belirten Koddur. Hava Prosestatı Arızalı Veya Baca Çekimi Yetersiz Olabilir. Servis Çağırınız.",
+            "Cihaz Ateşlemeye Geçiyor Fakat Alev Almadığı İçin Çalışmıyor. Gazla İlgili Sorun Meydana Gelmiş Veya Gaz Grubu, İyonizasyon Yahut Kart Arızalı Olabilir. Alarko Servis İle Görüşmeniz Gerekir.",
+            "Kombi Ateşleme İşleminden Sonra Alevlemesi Sahte Oluyor. Bu Durumda Da Cihazın Verim Sağlaması Mümkün Olamaz. Sorunun Tespit Edilmesi İçin Servis Çağırmanız Gereken Durum Söz Konusudur.",
+            "Peteklere Sıcaklık Gitmesini Sağlayan Sensör De Arıza Meydana Gelmiş. Bu Şekilde Kullanıcının Petekleri Isınmayabilir. Sensör Değişir İse Cihaz Da Eski Verimini Sağlayabilir. Alarko Trendy-D Servisi’ni Çağırınız.",
+            "Kombiden Sıcak Su Gelmesin De Baş Gösteren Parçalardan Biri Olan Ntc Sensörün De Arıza Meydana Gelmiş. Bu Şekilde Kullanıcı Sıcak Su Alamaz. Servis Tarafından Sensör Değişimi Gerekir.",
+            "Kombiler De Aşırı Isınma Sorunu Olduğu Zamanlar Da İçerisin De Bulunan Limit Termostat Devreye Girerek Kombinin Zarar Görmesini Engeller. Eğer Ekranda Böyle Bir Kod Beliriyor İse Bu Sensör Görevini Yapamıyor Demektir. Cihaza Reset Atınız. Şayet Düzelmez İse Servis İle Görüşüp Sorunun Çözümü Hakkında Bilgi Alınız.",
+            "Cihazın Suyunun Azaldığını Veya Bittiğini Gösteren Arıza Kodudur. Kombinin Su Basıncı Düştüğü Zamanlar Da Cihaz Bu Arıza Kodunu Verir. Basıncı 1 İle 2 Arasına Getirip Kombinin Eski Çalışmasına Devam Etmesini Sağlayabilirsiniz. Eğer Su Basıncı Standart Seviye De İse Su Dolaşımında Arıza Meydana Gelmiştir. Alarko Kombi Servisi’ni Arayınız."
+        ]
+    },
+    {
+        "brand": "Ariston",
+        "model": "Ariston",
+        "faultCodes": [
+            "101",
+            "501",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "111",
+            "601",
+            "305",
+            "306",
+            "307",
+            "607",
+            "677"
+        ],
+        "descriptions": [
+            "Aşırı Isınma",
+            "Alev Yok",
+            "Yetersiz Dolaşım",
+            "Yetersiz Dolaşım",
+            "Yetersiz Dolaşım",
+            "Yetersiz Dolaşım",
+            "Yetersiz Dolaşım",
+            "Yetersiz Dolaşım 'Doldurma Tuşuna Bas'",
+            "Egzoz Dumanı Tahliye Arızası",
+            "P.C.B. Arızası – Elektronik Kart Arızası",
+            "P.C.B. Arızası – Elektronik Kart Arızası",
+            "P.C.B. Arızası – Elektronik Kart Arızası",
+            "Ana Kart Arızası – Hava Sirkülasyonu",
+            "Ana Kart Arızası – Fan Arızası"
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Baxi Luna",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E04 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25 Arıza Kodu",
+            "E35 Arıza Kodu",
+            "E80 Arıza Kodu",
+            "E97 Arıza Kodu",
+            "E98/99 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Baxi Luna Kombide E01 Uyarısı Kombiye Gazın Gelmediğini Belirtmektedir. Bu Durumda Kombinin Elektronik Kartında Ya Da Gaz Valfinde Sorun Olabilir. Yapılması Gereken İse Baxi Luna Kombi Servisi’ne Ulaşmaktır.",
+            "Cihazda Aşırı Isınma Söz Konusu Olduğunda Bu Uyarı Kodu Ekranda Belirmektedir. Kısacası Termostat Arızalı İse Cihaz Kendini Otomatik Olarak Bloke Etmiştir. Cihaz İçin Kullanım Dışı Olmuş Da Diyebiliriz. Bu Durumda Baymak Servisi İle Görüşmelisiniz.",
+            "Baca Tip Kombilerde Baca Sensoru Yer Almaktadır. Baca Sensörünün Kombideki Görevi Kombinin Aynı Zamanda Ortamın Sıcaklığını Kontrol Etmek Ve Elektronik Karta Bunu Aktarmaktır. Bu Arıza Kodu Ekranda Beliriyor İse Sensör Görevini Gerçekleştirmiyordur. Kısa Sürede Baymak Baxi Luna Servisi’nden Yardım Almalısınız.",
+            "Kombide Alev Olup Olmadığını Elektronik Karta Aktaran İyonizeysen Elektrotu Sinyal Alamadığında Kombi Ekranında Bu Uyarı Kodu Belirmektedir. Gaz Akımında Bunun Yanı Sıra Atık Gaz Sisteminde Ya Da İyonizeysen Elektrotunda Sorun Olabilir. Baymak Servisi’ni Arayarak Yardım İstemelisiniz.",
+            "Baxi Luna Kombide E05 Hata Kodu Var İse Kalorifer Sensöründe Sorun Vardır. Bu Durumda Kaloriferler Kesinlikle Isınmaz. Sorunun Çözümlenmesi Adına Baxi Luna Servisi Aramalısınız.",
+            "Baxi Luna Kombide Bu Uyarı Kodu Yaz Kış Yaşanabilmektedir. Çünkü Bu Kodun Açıklaması Kombinin Sıcak Su Vermemesidir. Bu Durumda Kombide Sıcak Su İçin Çalışan Sensörünün Değişimi Gerekmektedir. Parça Değişimi İçin Mutlaka Baxi Luna Servisi İle Görüşünüz.",
+            "Kombide Suyun Azaldığını Belirten Uyarı Kodudur. Kombi Basıncını Kontrol Ederseniz 1 Barın Altında Olduğunu Görürsünüz. Kombiye Gerektiği Kadar (1,5 Bar) Su Basarsanız Kombi Çalışmaya Devam Edecektir.",
+            "Kombinin En Yüksek Sıcaklığa Ulaştığını Belirten Hata Kodudur. Baxi Luna Kombi Ekranında Bu Hata Kodu Belirdi İse Ya Pompa Sıkışmıştır Ya Üç Yollu Vananın Konumu Değişmiştir Ya Eşanjör Tıkanmıştır Veya Kireçlenmiş Ya Da Kalorifer Filtreleri Tıkanmıştır. Bu Durumda Cihaza Müdahale Etmemeli Baxi Luna Kombi Servisi’ni Aramalısınız.",
+            "Baxi Luna Kombide Beliren Bu Uyarı Kodu Cihazda Alevin Oluşmadığı Anlamındadır. Bu Durumda Cihazdan Sıcak Su Alamazsınız Aynı Zamanda Petekleriniz De Isınmaz. Cihaza Müdahale Etmeden Baymak Servisi Aramanız Gerekmektedir.",
+            "Baxi Luna Kombi Ekranında E80 Uyarı Kodu Varsa Elektronik Kartta Sorun Var Demektir. Bu Durumda Tüketici Olarak Cihaza Müdahale Etmemeli Hemen Baymak Servisi Aramalısınız.",
+            "Elektrik Voltajı İle Alakalı Sorun Olduğunda Baxi Luna Kombi Ekranında Bu Uyarı Kodu Belirmektedir. Bu Durumda Daire Girişine Gelen Voltajlar Düşük Veya Cihazda Elektronik Kart Sorunu Var Diyebiliriz. Baxi Luna Kombi Servisi İle İletişime Geçmelisiniz.",
+            "Baxi Luna Kombide Her İki Hata Kodu Da Elektronik Kart Arızası Anlamına Gelmektedir. Kısa Sürede Baymak Servis İle Görüşüp Yardım Talebinde Bulunmalısınız."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Brötje",
+        "faultCodes": [
+            "E10 Arıza Kodu",
+            "E25 Arıza Kodu",
+            "E28 Arıza Kodu",
+            "E50 Arıza Kodu",
+            "E110 Arıza Kodu",
+            "E119 Arıza Kodu",
+            "E125 Arıza Kodu",
+            "E130 Arıza Kodu",
+            "E133 Arıza Kodu",
+            "E151 Arıza Kodu",
+            "E156 Arıza Kodu",
+            "E160 Arıza Kodu",
+            "E193 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Ortamdaki Sıcaklık Seviyesini Elektronik Karta Aktarmakta Olan Sensörde Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketici Olarak Yapabileceğiniz İşlem Yoktur Brötje Kombi Servisi’ni Aramalısınız.",
+            "Kalorifer Sensöründe Sorun Olduğunu Belirten E25 Arıza Kodu Brötje Kombi Ekranında Belirdi İse Petekleriniz’den Verim Alamazsınız. Bu Durumda Direk Olarak Baymak Servisi İle Görüşmelisiniz.",
+            "Yalnızca Bacalı Kombilerde Bulunan Baca Sensoru Ortamın Aynı Zamanda Kombinin Sıcaklığını Kontrol Eder Ve Bunu Karta Aktarır. Kombi Ekranında Bu Hata Kodu Belirdi İse Ya Bu Sensörde Sorun Vardır Ya Da Bağlantılarında Kopukluk Vardır. Sensorun Görevini Yapmadığını Belirten Bu Hata Kodunda Direk Olarak Brötje Kombi Servisi’ni Aramalı Yardım İstemelisiniz.",
+            "Brötje Kombi Ekranında Bu Hata Kodu Belirdi İse Sıcak Su Sorunu Yaşanıyor Demektir. Bu Durumda Sıcak Su Alamazsınız. Sebebi İse Sıcak Su Sensörünün Arızalı Olması Ve Değişime İhtiyacı Olmasıdır. Böyle Bir Durumda Cihaza Müdahale Etmemeli Brötje Kombi Servisi’ne Ulaşmanız Gerekmektedir.",
+            "Aşırı Isınma Termostatı, Limit Termostatı (Stm) Brötje Kombinin İçinde Bulunan Su Aşırı Isınma Yaptığında Cihazı Bloke Eder. Göstergede Bu Uyarı Kodu Var İse Aşırı Isınma Termostatı Arızalıdır Veya Atık Gaz Sıcaklığını Elektronik Karta Aktaran Baca Sensöründe Problem Vardır. Baymak Servisi’ni Çağırmalısınız.",
+            "Brötje Kombinin Su Basınç Göstergesi Olması Gereken Değerin Altındadır. Kombi Ekranında Bu Uyarı Kodu Belirdi İse Kombiye İhtiyacı Olan Suyu Vermek Gerekir. Kombi Basınç Göstergesine Bakarsanız 0,3 Barın Altında Olduğunu Görürsünüz. Bu Durumda Kombiye Doldurma Musluğu İle Su Basmalı Basınç Değerini 1,5 Bara Çıkarmalısınız. İşlem Sonrası Kombi Çalışmasına Devam Edecektir.",
+            "Brötje Kombi Ekranında Bu Hata Kodu Varsa Kombi İçinde Bulunan Pompa Kalorifer Tesisatında Suyu Çeviremiyor Demektir. Ya Da Tesisatta Hava Vardır, Bu Sebeple Kombi Aşırı Isınma Sayesinde Arıza Uyarısı Veriyordur. Sorunun Çözümlenmesi İçin Brötje Kombi Servisi’ni Aramalısınız.",
+            "Brötje Kombide Baca Sensöründe Kısacası Ortam Aynı Zamanda Kombi İçindeki Sıcaklığı Ölçüp Elektronik Karta Aktaran Sensöründe Aşırı Isınma Problemi Olduğunu Gösterir. Sorunun Ortadan Kalkması İçin Baymak Kombi Servisi’nden Yardım İsteyiniz.",
+            "Kombiye Gelmekte Olan Gaz Girişinde Problem Olduğunu Bildiren Arıza Kodudur. Bu Durumda Gaz Valfinde Ya Da Ana Karta Problem Olduğunu Söyleyebiliriz. Eğer Sorun Gaz Valfi İle Alakalı İse Kombiye Gaz Girişi Olmaz. Fakat Sorun Ana Kartla Alakalı İse Bu Durumda Ana Kart Gaz Valfine Görevini Yaptırmaz.",
+            "Cihazın Ekranında E151 Arıza Kodu Belirdi İse Bu Elektronik Kartta Sorun Olduğunu Belirtir. Bu Durumda Cihaza Reset Atmanız Gerekmektedir. Reset İşlemi Sonrasında Bir Süre Kadar Bekleyin. Sorun Eğer Düzelmez İse Baymak Teknik Servis’i Arayınız.",
+            "Dairedeki Voltajın Düşük Durumda Olduğunu Belirten Hata Kodudur. Voltaj Değeri 220 V A Dönene Kadar Cihaza Müdahale Etmeyin. Bu Durumda Baymak Brötje Servisi’ni Arayın Ve Voltaj Düzenlemeye Yarayan Regülatör Cihazını Talep Edin. Voltajlarla Alakalı Sorunlar Yaşanıyor İse Kombi Parçaları Hasar Görebilir. Bu Konudaki Bilgileri Baymak Servisi’nden Alabilirsiniz.",
+            "Hermetik Tip Kombinin Fan Motorunda Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketicinin Müdahalesi Gerekmez Bu Yüzden De Brötje Servisi’ni Aramalısınız.",
+            "Tesisatta Hava Olması Sebebi İle Cihaz Buna Bağlı Aşırı Isınma Durumu Yaşatıyordur. Bu Durumda Teknik Destek Adına Brötje Servisi’ni Arayınız."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Dolcevita",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25/26 Arıza Kodu",
+            "E35 Arıza Kodu",
+            "E96 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Dolcevita Kombi Ekranında E01 Uyarısının Anlamı Cihazın Ateşlemeyi Sağlamamasıdır. Kombi Ateşleme Yapmadığında Verim De Alınamaz. Bu Nedenle De Sizin Bu Durumda Dolcevita Servisi’ne Ulaşmanız Gerekmektedir.",
+            "Dolcevita Kombi Aşırı Isınma Sebebi İle Kendini Bloke Ettiğinde Ekranında Bu Uyarı Kodu Belirir. Sorun Aşırı Isınma Termostatının Arıza Yapmasıdır. Baymak Dolcevita Servisi Aramalı Yardım İstemelisiniz.",
+            "Dolcevita Kombinin Atık Gaz Sisteminin Tam Anlamıyla Çalışmaması Sebebi İle Kombinin Arızaya Geçmesidir. Cihazın Baca Kontrolü Gerekir. Baca Çalışmasını Sorunsuz Gerçekleştiriyorsa Fan Motorunda Ya Da Proses Tatta Sorun Var Diyebiliriz. Baymak Dolcevita Servisi İle Görüşmelisiniz.",
+            "Cihazın Kalorifer Sensöründe Sorun Olduğunda Ekranda Beliren Hata Kodudur. Bu Durumda Peteklerinizle Alakalı Isınmama Sorunu Yaşarsınız. Durum Kalorifer Sensoru İle Alakalı Olabilir. Bu Yüzden De Arıza Tespiti Ve Müdahalesi İçin Dolcevita Servisi Aramalısınız.",
+            "Dolcevita Kombi Ekranında Beliren Bu Hatanın Açıklaması Sıcak Su Sensöründe Sorun Olduğudur. Bu Durumda Kombi Sıcak Su Vermez. Kombi Eğer Sıcak Suyu Verirse Belirli Bir Süre Kadar Verir Sonrasında Suyu Soğutur. Tüketici Müdahalesi Gerektirmeyen Bir Durum Olduğu İçin Direk Dolcevita Kombi Servisi Aranmalıdır.",
+            "Dolcevita Kombide Su Basınç Göstergesinin 0,3 Barın Altında Olduğunu Yani Kombinin Suyunun Azaldığını Belirten Uyarı Kodudur. Bu Durumda Tüketici Olarak Kombinin Altında Bulunan Doldurma Musluğunu Açmalı Kombiye 1,5 Bara Gelene Kadar Su Basmalısınız. Sonrasında Dolcevita Kombi Çalışacaktır.",
+            "Dolcevita Kombide Her İki Uyarıdan Biri Bulunuyor İse Muhtemel Pompa Hatasıdır. Bu Durumda Cihazda Birden Fazla Sorun Olabilir. Mesela Petekler Isınmaya Bilir, Kombi Ses Yapabilir Ya Da Kombi Hiç Çalışmıyor Olabilir. Bu Gibi Durumlarda Arızanın Hem Tespiti Hem De Çözümü İçin Baymak Servisi’nden Yardım Almalısınız.",
+            "Bu Uyarı Kodu Kombi Ekranında Belirdi İse Cihazın Ateşleme Yaptığı Fakat Alev Oluşturmadığı Anlamına Gelir. Kombiye Üç Kez Reset Atmanız Gerekmektedir. Reset Sonrasında Kombi Ekranında Hala Bu Uyarı Kodu Beliriyor İse Bu Durumda Baymak Kombi Servisi’ni Aramalısınız.",
+            "Daireye Gelen Voltaj Düşüklüğü Sebebi İle Kombi E96 Uyarı Kodu Verir. Bu Durumda Voltaj Düzenleyicisi Olarak Bilinen Regülatör Cihazı Kullanmanız Gerekmektedir."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Baymak",
+        "faultCodes": [
+            "E01",
+            "E02",
+            "E03",
+            "E05",
+            "E06",
+            "E10",
+            "E25",
+            "E35"
+        ],
+        "descriptions": [
+            "Gaz Beslemesi – Blokajı Arızası",
+            "Emniyet Termostat Sensoru Arızası",
+            "Baca Termostat Sensoru / Baca Basınç Sensoru Arızası",
+            "Isıtma Devresi Ntc Sensor Arızası",
+            "Kullanım Suyu Devresi Ntc Sensor Arızası",
+            "Düşük Su Basıncı",
+            "Maximum Sıcaklık Uyarısı",
+            "Alev Oluşumu Arızası"
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Eco 280fi",
+        "faultCodes": [
+            "Neon1 Kapalı, Neon2 Açıksa",
+            "Neon1 Kapalı, Neon2 Hızlı Yanıp Sönüyorsa",
+            "Neon1 Kapalı, Neon2 Yavaş Yanıp Sönüyorsa",
+            "Neon1 Ve Neon2 Yavaş Yanıp Sönüyorsa",
+            "Neon1 Yavaş Yanıp Sönüyorsa, Neon2 Açıksa"
+        ],
+        "descriptions": [
+            "Kombiye Gaz Girişin De Arıza Yaşadığını Bildiren Hatadır. Kombi Ateşleme Yapamıyor, Ateşleme Yapamadığı İçin De Verim Sağlamıyor. Gaz Gurubunda, Kartta, İyonizeysen Da Sorun Olabilir. Baymak Servisi İle Görüşmeniz Gerekir.",
+            "Baca İşleyişin De Arıza Olduğunu Belirten İşlevdir. Eğer Kombi Bacalıysa Baca Sensöründe, Hermetikse Hava Prosestatı Veya Fan Motorun Da Arıza Olabilir. Baymak Kombi Servisi İle Görüşünüz.",
+            "Kombi Su Basıncı Düşük Durumda. Cihaza Standart Su Ayarına Yani 1,5 Bara Kadar Su Basılması Gerekir. Daha Sonrasın Da Kombi Eski Çalışma Sistemine Dönecektir.",
+            "Ntc Sensör Arızası Olarak Bilinen Hata Işıklarıdır. Bu Işıklar Yanıp Sönüyor İse Kombi De Ya Sıcak Su Arızası Meydana Gelir Ya Da Kalorifer Petekleri Isınmaz. Hangi Sensorun Arızalı Olduğunu Tespit İçin Servis İle Görüşünüz.",
+            "Kombi De Fazla Isınma Olduğundan Dolayı Kombi Kendini Kullanıma Kapamış. Limit Termostat Sorunu Yaşanmaktadır. Baymak Teknik Servis İle Görüşerek Servis İsteyiniz."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Energy",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25/26 Arıza Kodu",
+            "E35 Arıza Kodu",
+            "E96 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Energy Kombide Bu Uyarı Kodu Varsa Kombinin Ateşleme Yapmadığını Belirtir. Bu Durumda Kombiden Verim Alınması Beklenilemez. Yani Kombi Hem Sıcak Su İhtiyacını Hem De Isınma İhtiyacını Karşılamaz. Tüketici Olarak Yapılabilecek Bir İşlem Olmamaktadır. Energy Kombi Servisi’ni Aramalısınız.",
+            "Kombide Fazla Isınma Söz Konusu Oldu İse Bu Uyarı Kodu Ekranda Belirmektedir. Bu Durumda Tüketicinin Yapabileceği İşlem Yoktur. Yapılması Gereken İse Energy Kombi Servisi İle İletişime Geçmektir.",
+            "Energy Kombi Ekranında E03 Hata Kodu Belirdi İse Atık Gaz Sisteminde Bulunan Hava Akış Anahtarında Sorun Vardır. Hava Soğuk İse Sert Hava Koşulları Sebebi İle Rüzgârın Bacadan Ters Üflemesi İle Atık Gazı Kombi Aktaramaz Ve Bu Sebeple Kombi Ekranında Bu Uyarı Kodu Belirir. Hava Şartları Normal Durumda İse Hava Prosestatı Ya Da Atık Gazı Dışarıya Ulaştıran Aynı Zamanda Temiz Havayı Dışarıdan İçeriye Ulaştıran Fan Motorunda Sorun Olduğunu Söyleyebiliriz. Bu Durumda Energy Kombi Servisi İle Görüşmelisiniz.",
+            "Energy Kombi Ekranında Bu Uyarı Kodu Var İse Kalorifer Sensorun De Sorun Vardır. Tesisat Isı Sensoru Arızalı Ya Da Hasar Görmüş Diyebiliriz. Bu Durumda Sensör Değişimi Gerekmektedir. Bu Durumda Direk Olarak Baymak Energy Servisi İle Görüşmelisiniz.",
+            "Energy Kombide Sıcak Su Alınamadığı Durumlarda Genellikle Kombi Ekranında Beliren Hata Kodudur. Bu Durumda Kombi Sıcak Su Vermez Çünkü Sıcak Su Sensoru Değişimi Gerekir. Energy Teknik Servisi Aramalı Yardım İstemelisiniz.",
+            "Kombideki Su Bittiği Zaman Ekranda Bulunan Hata Kodudur. Kombi Göstergesinde Bu Hata Kodu Var İse Cihazın Basıncı 1 Barın Altında Demektir. Kombi Basıncını Dolum Vanası İle 1,5 Bara Getirin Sonrasında Cihaz Çalışmasına Kaldığı Yerden Devam Edecektir.",
+            "Energy Kombide Oluşan Her İki Hata Kodunun Açıklaması Da Aynıdır. Bu Uyarı Kodlarından Biri Kombide Ekranında Belirdi İse Pompa Arızalı Diyebiliriz. Sorunun Pompayla Alakalı Olup Olmadığını Öğrenmeniz İçin Energy Kombi Servisi İle Görüşmeniz Gerekmektedir.",
+            "E35 Arızası Energy Kombinin Ateşleme Yaptığını Fakat Alev Algılamadığını Belirtmektedir. Bu Durumda Kombiye Reset Atılmalıdır. Reset İşleminden Sonra Energy Kombi Hala E35 Uyarısı Veriyor İse Baymak Kombi Servisi İle İletişime Geçmelisiniz.",
+            "Kombiye Ulaşan Voltajın Düşük Olduğunu Bildiren Hata Kodudur. Bu Durumda Voltaj Düzenleyici Regülatör Kullanmalısınız. Regülatör Kullanımı Sonrasında Kombi Ekranında Bulunan E96 Uyarısı Silinecek Kombi Çalışacaktır."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Falke",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25 Arıza Kodu",
+            "E35 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Falke Kombide Bu Uyarı Kodu Varsa Cihaza Gaz Girişi Yetersizdir. Y Da Gaz Geliyordur Fakat Gaz Valfinde Sorun Olması Sebebi İle Cihaz Bunu Algılamıyordur. Cihazın Elektronik Kartında Sorun Olabilir. Bunun Yanı Sıra Gaz Valfi Çalışmıyor Olabilir. Sorunun Biran Önce Çözümlenmesi İçin Falke Kombi Servisi’ni Arayınız.",
+            "Kombide Aşırı Isınma Sorunu Olduğunu Belirten Hata Kodudur. Bu Durumda Cihaz Bloke Olmuştur. Bu Şekilde Kombiyi Kullanamazsınız. Problemin Ortadan Kalkması İçin Falke Servisi’ni Aramalısınız.",
+            "Gaz Sıcaklığını Elektronik Karta Aktaran Ya Da Kombi İçinde Yer Alan Su Aşırı Isındığında Kombiyi Bloke Eden Aşırı Isınma Termostatında Sorun Olduğunu Belirten Hata Kodudur. Bu Durumda Tüketici Olarak Direk Falke Kombi Servisi’nden Yardım Almalısınız.",
+            "Falke Kombi Ekranında E05 Arıza Kodu Belirdi İse Isınma Sensöründe Sorun Olduğu Anlamına Gelmektedir. Bu Durumda Tüketici Olarak Yapabileceğiniz İşlem Yoktur. Kalorifer Isınmasında Sorun Vardır Ve Direkt Falke Servisi’ni 0212 425 09 09 Numaralı Telefondan Aramalısınız.",
+            "Sıcak Su Sensöründe Arıza Olduğunu Belirten Hata Kodudur. Bu Durumda Sensör Değişimi Gerekmektedir. Falke Kombi Böyle Bir Hata Kodu Verdiğinde Kombiden Sıcak Su Alamazsınız. Baymak Falke Servisi’ni Arayıp Bu Konuda Yardım Almanız Gerekmektedir.",
+            "Falke Kombide E10 Arızası Kombi Su Basınının 0,3 Barın Altında Olduğunu Gösterir. Bu Durumda Kombi Çalışmaz. Kombinin Altında Yer Alan Doldurma Musluğunu Açmalı Kombi Basıncını 1, Bara Yükseltmelisiniz. Kombi Basıcını Bu Değere Getirdiğinizde Kombi Çalışacaktır.",
+            "Falke Kombide Bu Uyarı Kodu Maksimum Sıcaklık Anlamındadır. Bu Durumda Cihaza Müdahale Etmeniz Mümkün Olmamaktadır. Sorunun Birden Çok Sebebi Olabilmektedir. Mesela Kalorifer Filtresi Tıkalı, Pompa Sıkışık, Eşanjör Kireçli Ya Da Üç Yolu Vana Konum Değiştiriyor Olabilir. Falke Kombi Servisi’ni Aramalısınız.",
+            "Falke Kombide Cihazın Ateşlemeyi Sağladığını Fakat Alev Oluşturmadığını Bildiren Hata Kodudur. Bu Durumda Cihazı Resetlemeniz Gerekmektedir."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Lambert",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25/26 Arıza Kodu",
+            "E35 Arıza Kodu",
+            "E96 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Lambert Kombinin Ateşlemeyi Başarıyla Yapmadığını Belirten Hata Kodudur. Kombide Ateşleme Başarısızlığı Da Diyebiliriz. Kombi Ateşlemeyi Yapmadığı İçin Hem Sıcak Su Alamazsınız Hem De Petekleriniz Isıtma Yapmaz. Bu Durumda Kombiye Reset Atmak Gerekir. Reset İşlemini Üç Kez Tekrarlamanız Gerekmektedir.",
+            "Kombinin Aşırı Isınma Termostat Hatası Verdiğini Gösteren Hata Kodudur. Kısacası Cihazın Aşırı Isınma Sebebi İle Bloke Olduğunu Yani Kullanım Dışı Olduğunu Söyleyebiliriz. Bu Durumda Sizin Direk Olarak Lambert Kombi Servisi’ne Ulaşmanız Gerekmektedir.",
+            "Atık Gaz Sisteminin İyi Şekilde Çalışmaması Sebebi İle Kombinin Arızaya Geçtiğini Belirtir. Bu Durumda Cihaz Bacalı İse Baca Yerinden Çıkmış Diyebiliriz. Baymak Kombi Servisi’ni Aramanız Gerekmektedir.",
+            "Lambert Kombide E05 Hata Kodu Kalorifer Tesisatı Sensörünün Arızalı Olduğu Anlamına Gelmektedir. Lambert Kombide Genellikle Kış Mevsiminde Bu Arıza Kodu Ekranda Belirebilmektedir. Sorunun Çözümlenmesi İçin Lambert Kombi Servisi’ni Aramalısınız.",
+            "Kombi De Sıcak Su Arızasının Yaşandığını Belirleyen E06 Arıza Kodu Ekran Da Olduğu Sürece Kullanıcı Sıcak Su Alamaz. Öncelikle Kombinin Su Basıncına Bakınız. Düşükse 1,5 Bara Kadar Su Basınız. Fakat Basınç Normal Ve Kombi Hala Sıcak Su Vermiyor İse Sensör Arızalı Olabilir. Baymak Servisi İle Görüşmeniz Gereken Bir Durumdur.",
+            "Kombide Mevcut Olan Su Basıncının Düşük Olduğu Anlamına Gelmektedir. Cihazın İyi Şekilde Verim Sağlaması İçin İçerisin De 1 İle 2 Arasına Gelecek Kadar Su Basılması Gerekir. Su Basma İşleminden Sonra Kombi Çalışır Durumuna Geri Dönecektir.",
+            "Pompanın Arıza Yaptığı Anlamına Gelen Bu Arıza Kodunda Kullanıcının Birkaç Arıza Birden Yaşaması Söz Konusu Olabilir. Mesela Petekler Isınmayabilir, Cihaz Ses Yapabilir, Sıcak Su Akışında Sorun Meydana Gelebilir. Teknik Servis Çağırarak Yardım İstemeniz Gerekir.",
+            "Kombinin Ateşleme Denemesi Yaptıktan Sonra Alevlenme Almadığını Belirten Koddur. Bu Sorun Da Cihaz Alev Almadığı İçin Kombi Çalışma Sergilemez. Baymak Servisi’ni Arayarak Sorunun Çözümü Hakkında Bilgi Almanız Gerekir.",
+            "Kombiye Gelen Voltajlar Da Düşüklük Yaşandığını Ve Bu Sebeple De Cihazın Çalışmadığını Belirtmek İsteyen Arıza Kodudur. Bu Kodda Kullanıcı Regülatör Kullanmalıdır. Çünkü Bu Sorun Sık Sık Yaşanırsa Cihaza Kalıcı Hasarlar Verebilir."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Lambert Attivo",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25 Arıza Kodu",
+            "E35 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Kombiye Olan Gaz Girişinin Yetersiz Durumda Olduğunu Belirten Koddur. Yani Bu Durumda Cihaz Ateşleme Yapamaz Ve Verim Sağlamaz. Ana Kartta Yahut Gaz Gurubun Da Sorun Oluşmuş Olabilir. Baymak Servisi İle Görüşerek Yardım İsteyiniz.",
+            "Kombi Fazla Isınmış Ve Kullanım Dışı Olmuş Durumda. Bu Şekilde Kombi Kullanılması Mümkün Olmamaktadır. Limit Termostat Hasar Görmüş Olabilir. Baymak Kombi Servis İle Görüşmeniz Gerekir.",
+            "Baca Tip Kombi Çeşitlerin De Baca Sensörünün Hasar Gördüğünü Belirten Koddur. Bu Şekilde Kombinin Ve Ortamın Isısını Ölçmeye Yarayan Bu Aparat İşlevini Yerine Getiremez Ve Elektronik Karta Bilgi Yollayamaz. Baymak Teknik Servis İle Görüşünüz.",
+            "Tesisatı Isıtma Amaçlı Kullanılan Sensorun Hasarlı Olduğunu Belirten Koddur. Bu Kod Gösterge De Belirdiği Sırada Kombinin Petekleri Isıtmada Zorluk Yaşadığını Anlayabiliriz. Sensör Değişirse Problem Ortadan Kalkacaktır. Servisi Arayarak Yardım Talebin De Bulunmanız Gerekir.",
+            "Sık Yaşanan Arıza Kodlarından Biri Olan E06 Hata Kodu, Cihazın Sıcak Su Vermediğini Belirten Koddur. Bu Kod Ekranda Belirdiği Sırada Kullanıcı Sıcak Su Alamaz.",
+            "Cihazın Su Basıncın Da Düşme Yaşandığını Gösteren Arıza Kodudur. Bu Arıza Kodu İle Karşılaştığınız Zaman Cihaza Su Basmanız Gerektiğini Anlayabilirsiniz. Su Basıncı 1,5 Bara Ulaşana Kadar Su Basmanız Gerekir. Daha Sonrasın Da Arıza Kodu Devam Ederse Cihaza Bir Defa Reset Atarsanız Kombi Eski Çalışma Sistemine Geri Dönecektir.",
+            "Kombide Aşırı Isınmam Oluştuğu Zamanlarda Cihazda E25 Kombi Hata Kodu Belirmektedir. Bu Kod Filtrelerin Tıkandığını, Ana Eşanjörün Kireçlendiğini, Pompanın Sıkışmaya Uğradığını Veya Üç Yollu Vanada Konum Değiştirme Olabileceğini Anlatmaktadır. Konuyla Alakalı Olarak Servis Desteği İstemeniz Gerekir.",
+            "Cihazın Alev Almadığını Belirten Arıza Kodudur. Bu Kod Gösterge De Belirdiği Zaman Kombiye Gaz Girişi Mevcut Mu Vanalar Açık Mı Bakınız. Eğer Vanalar Açıksa Cihaza Birkaç Kez Üst Üste Olmak Şartı İle Reset Atınız. Resetten Sonra Da Kombi Düzelmez İse Gaz Valfinde, İyonlarda, Elektrotlar Da Veya Kartta Sorun Olabilir. Servis Çağırmanız Gerekir."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Luna",
+        "faultCodes": [
+            "E01 Arıza Kodu",
+            "E02 Arıza Kodu",
+            "E03 Arıza Kodu",
+            "E05 Arıza Kodu",
+            "E06 Arıza Kodu",
+            "E10 Arıza Kodu",
+            "E25 Arıza Kodu",
+            "E35 Arıza Kodu",
+            "E80 Arıza Kodu",
+            "E97 Arıza Kodu",
+            "E98/99 Arıza Kodu",
+            "E130 Arıza Kodu",
+            "E133 Arıza Kodu",
+            "E151 Arıza Kodu",
+            "E156 Arıza Kodu",
+            "E160 Arıza Kodu",
+            "E193 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Kombiye Gaz Girişinde Problem Olduğunu Belirten Hata Kodudur. Bu Durumda Baxi Luna Kombinin Gaz Valfi Ya Da Ana Kartı Arızalı Diyebiliriz. Bu Parçaların İkisinden Birinin Arızalı Olması Demek Kombiye Gaz Girişinin Yeterli Olmadığı Anlamına Gelir Ve Bu Durumda Cihaz Çalışmaz. Yapmanız Gereken Luna Kombi Servisi’ni Aramaktır.",
+            "Aşırı Isınma Termostatı Veya Limit Termostatı Arızalı Olduğunda Luna Kombi Ekranında Bu Uyarı Kodu Belirir. Kombinin İçindeki Su Aşırı Isınır İse Limit Termostatı Direk Kombiyi Bloke Eder. Bu Durumda Kombinin Parçalarında Sorun Olduğunu Söyleyebiliriz. Yalnız Tüketici Olarak Yapabileceğiniz İşlem Yoktur, Baymak Luna Servisi İle Görüşmelisiniz.",
+            "Baca Tip Kombilerde Baca Sensöründe Sorun Olduğunda Ya Da Kablolarında Kopma Meydana Geldiğinde Luna Kombi Ekranında Bu Uyarı Kodu Belirir. Baca Sensoru Ortam Ve Aynı Zamanda Kombinin İç Sıcaklığını Ölçme, Bu Durumu Elektronik Karta Aktarma Görevindedir. Cihaza Müdahale Etmemeli Direk Olarak Baymak Luna Servisi Çağrı Merkezini Aramalısınız.",
+            "Tesisat Sensöründe Problem Olduğunda Ya Da Arıza Oluştuğunda Luna Kombi Ekranında E05 Arıza Kodu Belirir. Bu Durumda Direk Olarak Sensör Değişimi Gerekeceği İçin Luna Kombi Servisi İle İletişime Geçmelisiniz.",
+            "Luna Kombide E06 Arıza Kodu Sıcak Su Sensöründe Sorun Olduğu Anlamındadır. Bu Durumda Sensör Değişimi Yapılana Kadar Kombi Sıcak Su Sağlamaz.",
+            "Luna Kombide Basınç Göstergesinin Azaldığını Daha Doğrusu Kombinin Suyunun Azaldığını Belirten Hata Kodudur. Bu Durumda Kombinin Doldurma Musluğunu Açmalı Kombiye 1,5 Bara Kadar Su Basmalısınız. Bu İşlem Sonrasında Kombi Ekranında Bulunan Arıza Kodu Yok Olacak Kombi Yeniden Çalışacaktır.",
+            "Cihazın Çok Fazla Isındığı Anlamına Gelen Hata Kodudur. Bu Durumda Eşanjör Tıkalı, Kalorifer Filtresi Kirli, Üç Yollu Vana Konum Değiştiriyor Ya Da Pompa Sıkışıyor Diyebiliriz.",
+            "Luna Kombinin Alev Oluşturmada Güçlük Çektiğini Ve Alevi Oluşturmadığını Bildiren Arıza Kodudur. Bu Durumda Kombi Ateşlemeyi Yapar Fakat Alev Oluşumu Engellenir. Arızanın Çözümlenmesi Ve Sorunun Giderilmesi İçin Luna Servisi İle Görüşmelisiniz.",
+            "Luna Kombi Ekranında E80 Uyarısı Varsa Bu Kombinin Beyninde Yani Ana Kartında Sorun Olduğu Anlamına Gelmektedir. Baymak Luna Servisi’ni Arayarak Yardım Talebinde Bulunun.",
+            "Luna Kombide Beliren E97 Arıza Kodu Elektrik Voltajlarından Kaynaklanmaktadır. Daireye Gelen Voltaj Düşük İse Ya Da Kombinin Ana Kartında Sorun Varsa Bu Uyarı Kodu Kombi Ekranında Belirir. Bu Durumda Luna Servisi İle Görüşmelisiniz.",
+            "Luna Kombi Ekranında Bu İki Hata Kodundan Biri Varsa Elektronik Kartta Sorun Olduğunu Anlayabiliriz.",
+            "Ortamdaki Sıcaklığı Kombiye Aktaran Baca Sensöründe Arıza Olduğunda Kombide Bu Uyarı Kodu Mevcut Olur. Yani Bu Durumda Sensör Faz Isınmış Diyebiliriz. Böyle Bir Durumda Star Kombi Servisi’ni Arayınız.",
+            "Star Kombide E133 Arızası Kombinin Ateşleme Yapmadığını Yani Alev Oluşturmadığını Bildirir. Bunun Sebebi İse Kombinin Ateşleme Yapacak Gazı Bulamamasıdır. Bu Durumda Gaz Vanaları Kontrol Edilmeli Açık Duruma Getirilmelidir. Gaz Açık İse Gazın Kesilip Kesilmediğine Dikkat Edilmelidir. Sorun Yok İse Star Kombi Servisi’nden Yardım Alınız.",
+            "Star Kombide Elektronik Kart Arızasının Olduğunu Belirten Uyarı Kodudur. Bu Durumda Cihaza Elektrik Girişi Olmaz Ve Dolayısıyla Cihaz Çalışmaz. Bu Durumda Ya Kart Tamiri Ya Da Değişimi Gerekmektedir. Baymak Star Servisi’ni Arayarak Yardım İstemelisiniz.",
+            "Bu Hata Kodu Star Kombi Üzerinde Belirdi İse Cihaz Düşük Voltaj Sebebi İle Kapanmaktadır. Bunun Sebebi İse Voltajı Güçsüz Bulmasıdır. Voltaj Düzelene Kadar Tüketici Olarak Yapabileceğiniz İşlem Yoktur. Voltaj Düzenleyici Regülatör Kullanmanız Gerekmektedir. Voltaj Düşüklüğü Sebebi İle Kombide Bulunan Parçalarda Yanma Ya Da Arıza Oluşma Olasılığı Fazladır. Voltaj Düzenleyici Regülatör Cihazı Sahibi Olmak İçin Baymak Star Kombi Servisi İle Görüşmelisiniz.",
+            "Cihazın Yanma İçin Gereken Havayı Dışarıdan Alan Kötü Gazı İse Dışarıya Aktaran Fan Motorunda Sorun Olduğunu Belirten Hata Kodudur. Star Kombide Bu Uyarı Kodu Belirir İse Cihaz Çalışırken Ses Yapabilir Ya Da Çalışmasını Durdurabilir. Kısa Sürede Star Kombi Servisi’nden Yardım Almanız Gerekmektedir.",
+            "Tesisatta Hava Oluştuğunda Star Kombi Göstergesinde Bu Uyarı Kodu Belirmektedir. Hava Oluşumu Sebebi İle Kombide Aşırı Isınma Meydana Gelmiş Demektir. Bu Duruma Tüketici Olarak Müdahaleniz Söz Konusu Değildir."
+        ]
+    },
+    {
+        "brand": "Baymak",
+        "model": "Brotje Star",
+        "faultCodes": [
+            "E10 Arıza Kodu",
+            "E20 Arıza Kodu",
+            "E28 Arıza Kodu",
+            "E50 Arıza Kodu",
+            "E110 Arıza Kodu",
+            "E119 Arıza Kodu",
+            "E125 Arıza Kodu"
+        ],
+        "descriptions": [
+            "Dairenin Sıcaklığını Ana Karta Aktaran Sensörde Sorun Olduğunda Star Kombide Bu Uyarı Kodu Belirir. Bu Durumda Sensorun Görevini Gerçekleştirmediğini Söyleyebiliriz. Teknik Destek Ve Yardım İçin Star Kombi Servisi İle İletişime Geçmelisiniz.",
+            "Star Kombinin Kalorifer Sensöründe Sorun Olduğunda Göstergede Bu Hata Kodu Belirir. Bu Durumda Petekler Hiçbir Şekilde Isı Sağlamaz. Star Kombi Servisi’ni Arayarak Bu Konuda Yardım Alınız.",
+            "Bacalı Kombilerde Bulunan Baca Sensoru Arıza Yaptığı Zaman Kombi Ekranında Bu Uyarı Kodu Belirir. Bu Durumda Ortamın Aynı Zamanda Kombinin İç Sıcaklığını Algılayıp Sonrasında Elektronik Karta Bilgisini Veren Parçada Sorun Olduğunu Söyleyebiliriz. Baymak Star Servisi İle İletişime Geçmelisiniz.",
+            "Star Kombide Sıcak Su Sensöründe Sorun Olduğunda Kombide E50 Uyarı Kodu Belirir. Oldukça Çok Yaşanan Bu Arızada Yapabileceğiniz İşlem Olmamaktadır. Yapmanız Gereken Tek Şey İse Sensör Değişimi Gerekeceği İçin Star Kombi Servisi’nden Yardım Almaktır.",
+            "Aşırı Isınma Termostatın Da Sorun Ya Da Hasar Var İse Kombi Göstergesinde E110 Arıza Kodu Belirmektedir. Kombide Aşırı Isınma Termostatının Görevi; Kombi İçindeki Su Fazla Isındığı Zaman Direk Devreye Girmek Ve Cihazı Bloke Etmektir. Bu Durumda Sizin Direk Baymak Kombi Servisi’nden Yardım Almanız Gerekmektedir.",
+            "Star Kombideki Suyun Azaldığını Gösteren Uyarı Kodudur. Bu Durumda Kombinin Alt Tarafında Yer Alan Doldurma Musluğunu Açmalı Ve Basıncı 1,5 Bar Değerine Ulaştırmalısınız. İşlem Sonrası Doldurma Musluğunu Kapatın Cihaz Çalışmasına Devam Edecektir.",
+            "Star Kombi Ekranında E125 Arıza Uyarısı Var İse Cihazın İçinde Yer Alan Pompa Kalorifer Tesisatındaki Suyu Çevirme Görevini Yapmıyordur. Bu Durumda Sorunun Tespiti Ve Çözümü İçin Star Kombi Servisi’ni Aramalısınız."
+        ]
     }
 ]
