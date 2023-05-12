@@ -1177,37 +1177,37 @@
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E130 Arıza Kodu",
       "description": "Ortamdaki Sıcaklığı Kombiye Aktaran Baca Sensöründe Arıza Olduğunda Kombide Bu Uyarı Kodu Mevcut Olur. Yani Bu Durumda Sensör Faz Isınmış Diyebiliriz. Böyle Bir Durumda Star Kombi Servisi’ni Arayınız."
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E133 Arıza Kodu",
       "description": "Star Kombide E133 Arızası Kombinin Ateşleme Yapmadığını Yani Alev Oluşturmadığını Bildirir. Bunun Sebebi İse Kombinin Ateşleme Yapacak Gazı Bulamamasıdır. Bu Durumda Gaz Vanaları Kontrol Edilmeli Açık Duruma Getirilmelidir. Gaz Açık İse Gazın Kesilip Kesilmediğine Dikkat Edilmelidir. Sorun Yok İse Star Kombi Servisi’nden Yardım Alınız."
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E151 Arıza Kodu",
       "description": "Star Kombide Elektronik Kart Arızasının Olduğunu Belirten Uyarı Kodudur. Bu Durumda Cihaza Elektrik Girişi Olmaz Ve Dolayısıyla Cihaz Çalışmaz. Bu Durumda Ya Kart Tamiri Ya Da Değişimi Gerekmektedir. Baymak Star Servisi’ni Arayarak Yardım İstemelisiniz."
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E156 Arıza Kodu",
       "description": "Bu Hata Kodu Star Kombi Üzerinde Belirdi İse Cihaz Düşük Voltaj Sebebi İle Kapanmaktadır. Bunun Sebebi İse Voltajı Güçsüz Bulmasıdır. Voltaj Düzelene Kadar Tüketici Olarak Yapabileceğiniz İşlem Yoktur. Voltaj Düzenleyici Regülatör Kullanmanız Gerekmektedir. Voltaj Düşüklüğü Sebebi İle Kombide Bulunan Parçalarda Yanma Ya Da Arıza Oluşma Olasılığı Fazladır. Voltaj Düzenleyici Regülatör Cihazı Sahibi Olmak İçin Baymak Star Kombi Servisi İle Görüşmelisiniz."
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E160 Arıza Kodu",
       "description": "Cihazın Yanma İçin Gereken Havayı Dışarıdan Alan Kötü Gazı İse Dışarıya Aktaran Fan Motorunda Sorun Olduğunu Belirten Hata Kodudur. Star Kombide Bu Uyarı Kodu Belirir İse Cihaz Çalışırken Ses Yapabilir Ya Da Çalışmasını Durdurabilir. Kısa Sürede Star Kombi Servisi’nden Yardım Almanız Gerekmektedir."
     },
     { 
       "brand": "Baymak",
-      "model": "Luna",
+      "model": "Brotje Star",
       "faultCode": "E193 Arıza Kodu",
       "description": "Tesisatta Hava Oluştuğunda Star Kombi Göstergesinde Bu Uyarı Kodu Belirmektedir. Hava Oluşumu Sebebi İle Kombide Aşırı Isınma Meydana Gelmiş Demektir. Bu Duruma Tüketici Olarak Müdahaleniz Söz Konusu Değildir."
     }
