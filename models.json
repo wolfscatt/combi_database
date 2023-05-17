@@ -32,64 +32,274 @@
         "brandName":"Alarko"
       },
       {
-        "idModel":"31",
+        "idModel":"51",
         "strModel":"Ariston",
         "brandName":"Ariston"
       },
       {
-        "idModel":"41",
+        "idModel":"52",
+        "strModel":"Cares Premium 24",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"53",
+        "strModel":"Clas",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"54",
+        "strModel":"Clas Evo",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"55",
+        "strModel":"Egis",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"56",
+        "strModel":"Genus",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"57",
+        "strModel":"Matis",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"58",
+        "strModel":"Microgenus",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"59",
+        "strModel":"Uno",
+        "brandName":"Ariston"
+      },
+      {
+        "idModel":"81",
         "strModel":"Baxi Luna",
         "brandName":"Baymak"
       },
       {
-        "idModel":"42",
+        "idModel":"82",
         "strModel":"Brötje",
         "brandName":"Baymak"
       },
       {
-        "idModel":"43",
+        "idModel":"83",
         "strModel":"Dolcevita",
         "brandName":"Baymak"
       },
       {
-        "idModel":"44",
+        "idModel":"84",
         "strModel":"Baymak",
         "brandName":"Baymak"
       },
       {
-        "idModel":"45",
+        "idModel":"85",
         "strModel":"Eco 280fi",
         "brandName":"Baymak"
       },
       {
-        "idModel":"46",
+        "idModel":"86",
         "strModel":"Energy",
         "brandName":"Baymak"
       },
       {
-        "idModel":"47",
+        "idModel":"87",
         "strModel":"Falke",
         "brandName":"Baymak"
       },
       {
-        "idModel":"48",
+        "idModel":"88",
         "strModel":"Lambert",
         "brandName":"Baymak"
       },
       {
-        "idModel":"49",
+        "idModel":"89",
         "strModel":"Lambert Attivo",
         "brandName":"Baymak"
       },
       {
-        "idModel":"410",
+        "idModel":"810",
         "strModel":"Luna",
         "brandName":"Baymak"
       },
       {
-        "idModel":"411",
+        "idModel":"811",
         "strModel":"Brotje Star",
         "brandName":"Baymak"
+      },
+      {
+        "idModel":"812",
+        "strModel":"Idee",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"813",
+        "strModel":"Baxi Eco 3 Compact",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"814",
+        "strModel":"Baxi Luna 3",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"815",
+        "strModel":"Baxi Luna 5",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"816",
+        "strModel":"Baxi Main 24 Fi/24 İ",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"817",
+        "strModel":"Baxi Nuvola 240 Fi",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"818",
+        "strModel":"Digitech",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"819",
+        "strModel":"Duo Tec",
+        "brandName":"Baymak"
+      },
+      {
+        "idModel":"91",
+        "strModel":"BK 20 HP LCD",
+        "brandName":"Beko"
+      },
+      {
+        "idModel":"31",
+        "strModel":"CB 24 TF",
+        "brandName":"Alpha"
+      },
+      {
+        "idModel":"41",
+        "strModel":"DGK Y 20 LCD",
+        "brandName":"Arcelik"
+      },
+      {
+        "idModel":"71",
+        "strModel":"Baykan",
+        "brandName":"Baykan"
+      },
+      {
+        "idModel":"101",
+        "strModel":"Classic",
+        "brandName":"Bosch"
+      },
+      {
+        "idModel":"111",
+        "strModel":"Logamax U052/U062",
+        "brandName":"Buderus"
+      },
+      {
+        "idModel":"121",
+        "strModel":"Eomix",
+        "brandName":"Copa"
+      },
+      {
+        "idModel":"131",
+        "strModel":"Condense",
+        "brandName":"Daikin"
+      },
+      {
+        "idModel":"141",
+        "strModel":"TERMOMEX UKDAX 11 ST",
+        "brandName":"Daxom"
+      },
+      {
+        "idModel":"151",
+        "strModel":"Adonis",
+        "brandName":"Demirdokum"
+      },
+      {
+        "idModel":"161",
+        "strModel":"Kombimix 24/28",
+        "brandName":"Dizayn"
+      },
+      {
+        "idModel":"171",
+        "strModel":"Scot",
+        "brandName":"E.C.A"
+      },
+      {
+        "idModel":"181",
+        "strModel":"Emko",
+        "brandName":"Emko"
+      },
+      {
+        "idModel":"191",
+        "strModel":"Domicompact",
+        "brandName":"Ferroli"
+      },
+      {
+        "idModel":"201",
+        "strModel":"Lina",
+        "brandName":"Hexel"
+      },
+      {
+        "idModel":"211",
+        "strModel":"Eolo Maior",
+        "brandName":"Immergas"
+      },
+      {
+        "idModel":"221",
+        "strModel":"24 FN",
+        "brandName":"Lambert"
+      },
+      {
+        "idModel":"231",
+        "strModel":"Epsilon",
+        "brandName":"Maktek"
+      },
+      {
+        "idModel":"241",
+        "strModel":"Leon",
+        "brandName":"Protherm"
+      },
+      {
+        "idModel":"251",
+        "strModel":"COMBO",
+        "brandName":"Sanica"
+      },
+      {
+        "idModel":"261",
+        "strModel":"Termodinamik",
+        "brandName":"Termodinamik"
+      },
+      {
+        "idModel":"271",
+        "strModel":"Logic",
+        "brandName":"Termoteknik"
+      },
+      {
+        "idModel":"281",
+        "strModel":"Rigel",
+        "brandName":"Thermex"
+      },
+      {
+        "idModel":"291",
+        "strModel":"ecoTEC",
+        "brandName":"Vaillant"
+      },
+      {
+        "idModel":"301",
+        "strModel":"Vitodens 100",
+        "brandName":"Viessmann"
+      },
+      {
+        "idModel":"311",
+        "strModel":"Ewa",
+        "brandName":"Warmhaus"
       }
     ]
   }

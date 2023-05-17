@@ -27,11 +27,6 @@
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/ariston.png"
     },
     {
-      "idBrand":"6",
-      "strBrand":"Bautherm",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/bautherm.png"
-    },
-    {
       "idBrand":"7",
       "strBrand":"Baykan",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/baykan.png"
@@ -73,123 +68,88 @@
     },
     {
       "idBrand":"15",
-      "strBrand":"Daylux",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/daylux.png"
-    },
-    {
-      "idBrand":"16",
-      "strBrand":"De Dietrich",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/dedietrich.png"
-    },
-    {
-      "idBrand":"17",
       "strBrand":"Demirdokum",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/demirdokum.png"
     },
     {
-      "idBrand":"18",
+      "idBrand":"16",
       "strBrand":"Dizayn",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/dizayn.png"
     },
     {
-      "idBrand":"19",
-      "strBrand":"Dolcevita",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/dolcevita.jpg"
-    },
-    {
-      "idBrand":"20",
+      "idBrand":"17",
       "strBrand":"E.C.A",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/eca.png"
     },
     {
-      "idBrand":"21",
+      "idBrand":"18",
       "strBrand":"Emko",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/emko.png"
     },
     {
-      "idBrand":"22",
+      "idBrand":"19",
       "strBrand":"Ferroli",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/ferroli.png"
     },
     {
-      "idBrand":"23",
+      "idBrand":"20",
       "strBrand":"Hexel",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/hexel.jpeg"
     },
     {
-      "idBrand":"24",
+      "idBrand":"21",
       "strBrand":"Immergas",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/immergas.png"
     },
     {
-      "idBrand":"25",
+      "idBrand":"22",
       "strBrand":"Lambert",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/lambert.jpg"
     },
     {
-      "idBrand":"26",
+      "idBrand":"23",
       "strBrand":"Maktek",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/maktek.png"
     },
     {
-      "idBrand":"27",
-      "strBrand":"Newatherm",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/newatherm.jpg"
-    },
-    {
-      "idBrand":"28",
+      "idBrand":"24",
       "strBrand":"Protherm",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/protherm.png"
     },
     {
-      "idBrand":"29",
+      "idBrand":"25",
       "strBrand":"Sanica",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/sanica.png"
     },
     {
-      "idBrand":"30",
-      "strBrand":"Termoakim",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/termoakim.png"
-    },
-    {
-      "idBrand":"31",
+      "idBrand":"26",
       "strBrand":"Termodinamik",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/termodinamik.png"
     },
     {
-      "idBrand":"32",
+      "idBrand":"27",
       "strBrand":"Termoteknik",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/termoteknik.jpg"
     },
     {
-      "idBrand":"33",
+      "idBrand":"28",
       "strBrand":"Thermex",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/thermex.jpg"
     },
     {
-      "idBrand":"34",
-      "strBrand":"Unmak",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/unmak.png"
-    },
-    {
-      "idBrand":"35",
+      "idBrand":"29",
       "strBrand":"Vaillant",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/vaillant.png"
     },
     {
-      "idBrand":"36",
+      "idBrand":"30",
       "strBrand":"Viessmann",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/viessmann.png"
     },
     {
-      "idBrand":"37",
+      "idBrand":"31",
       "strBrand":"Warmhaus",
       "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/warmhaus.jpg"
-    },
-    {
-      "idBrand":"38",
-      "strBrand":"Wolf",
-      "strBrandThumb":"https://raw.githubusercontent.com/wolfscatt/combi_database/master/wolf.png"
     }
   ]
 }
